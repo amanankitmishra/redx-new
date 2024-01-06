@@ -13,17 +13,16 @@ export const HomeSlider1 = () => {
       </button>
 
       <div
-        className={`slider-single-item slide-one ${
-          active == 1 ? "slick-active" : ""
-        }`}
+        className={`slider-single-item slide-one ${active == 1 ? "slick-active" : ""
+          }`}
       >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="slider-content">
                 <div className="sub-title mb-20">Welcome to Munfirm</div>
-                <h1>Organic Foods &amp; Vegetables</h1>
-                <h6>25 Years of experience in agriculture farming</h6>
+                <h1>Agriculture Farming</h1>
+                <h6>Cultivating Trust, Harvesting Nutrition</h6>
                 <div className="slider-btns mt-30">
                   <Link href="/shop-grid">
                     <a className="theme-btn style-two">
@@ -42,8 +41,9 @@ export const HomeSlider1 = () => {
               <div className="slider-images">
                 <img
                   className="image"
-                  src="assets/images/slider/slider-image1.png"
+                  src="assets/images/slider/slider-image1.jpg"
                   alt="Slider"
+                  style={{ borderRadius: '100%' }}
                 />
                 <img
                   className="offer"
@@ -83,9 +83,8 @@ export const HomeSlider1 = () => {
         </div>
       </div>
       <div
-        className={`slider-single-item slide-two ${
-          active == 2 ? "slick-active" : ""
-        }`}
+        className={`slider-single-item slide-two ${active == 2 ? "slick-active" : ""
+          }`}
       >
         <div className="container">
           <div className="row align-items-center">
@@ -93,8 +92,9 @@ export const HomeSlider1 = () => {
               <div className="slider-images">
                 <img
                   className="image"
-                  src="assets/images/slider/slider-image2.png"
+                  src="assets/images/slider/slider-image2.jpg"
                   alt="Slider"
+                  style={{ borderRadius: '100%' }}
                 />
                 <img
                   className="offer"
@@ -106,8 +106,8 @@ export const HomeSlider1 = () => {
             <div className="col-lg-6">
               <div className="slider-content">
                 <div className="sub-title mb-20">Welcome to Munfirm</div>
-                <h1>Organic Foods &amp; Vegetables</h1>
-                <h6>25 Years of experience in agriculture farming</h6>
+                <h1>Food Grains</h1>
+                <h6>Driven By Innovation, Delivering on quality.</h6>
                 <div className="slider-btns mt-30">
                   <Link href="/shop-grid">
                     <a className="theme-btn style-two">
@@ -173,9 +173,8 @@ export const HomeSlider2 = () => {
       </button>
 
       <div
-        className={`slider-single-item style-two ${
-          active == 1 ? "slick-active" : ""
-        }`}
+        className={`slider-single-item style-two ${active == 1 ? "slick-active" : ""
+          }`}
       >
         <div className="container">
           <div className="row align-items-center">
@@ -215,9 +214,8 @@ export const HomeSlider2 = () => {
         </div>
       </div>
       <div
-        className={`slider-single-item style-two ${
-          active == 2 ? "slick-active" : ""
-        }`}
+        className={`slider-single-item style-two ${active == 2 ? "slick-active" : ""
+          }`}
       >
         <div className="container">
           <div className="row align-items-center">
@@ -277,9 +275,8 @@ export const HomeSlider3 = () => {
       </button>
 
       <div
-        className={`slider-single-item style-three slide-one ${
-          active == 1 ? "slick-active" : ""
-        }`}
+        className={`slider-single-item style-three slide-one ${active == 1 ? "slick-active" : ""
+          }`}
       >
         <div className="container-fluid">
           <div className="row align-items-center">
@@ -318,9 +315,8 @@ export const HomeSlider3 = () => {
         </div>
       </div>
       <div
-        className={`slider-single-item style-three slide-two ${
-          active == 2 ? "slick-active" : ""
-        }`}
+        className={`slider-single-item style-three slide-two ${active == 2 ? "slick-active" : ""
+          }`}
       >
         <div className="container-fluid">
           <div className="row align-items-center">

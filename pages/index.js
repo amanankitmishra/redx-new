@@ -42,9 +42,9 @@ const Index = () => {
             <div className="col-lg-7 wow fadeInUp delay-0-2s">
               <div className="section-title mb-20">
                 <span className="sub-title mb-20">
-                  Popular Foods and Vegetables
+                  Agriculture , Agro Chemicals , Industrial ,Plywood Product
                 </span>
-                <h2>Quality Fruits &amp; Vegetables</h2>
+                <h2>Agriculture Products</h2>
               </div>
             </div>
             <div className="col-lg-5 wow fadeInUp delay-0-4s">
@@ -60,46 +60,47 @@ const Index = () => {
           <div className="category-wrap">
             <div className="category-item wow fadeInUp delay-0-3s">
               <div className="icon">
-                <img src="assets/images/category/icon1.png" alt="Icon" />
+                <img src="assets/images/category/icon1.jpg" alt="Icon" style={{ borderRadius: "50%" }} />
               </div>
               <h5>
-                <Link href="/services">Organic Fruits</Link>
+                <Link href="/services">Black Pepper</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
             <div className="category-item wow fadeInUp delay-0-4s">
               <div className="icon">
-                <img src="assets/images/category/icon2.png" alt="Icon" />
+                <img src="assets/images/category/whiteRise.jpg" alt="Icon" style={{ borderRadius: "50%", height: "100px" }} />
               </div>
               <h5>
-                <Link href="/services">Vegetables</Link>
+                <Link href="/services">White Raw Rise</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
             <div className="category-item wow fadeInUp delay-0-5s">
               <div className="icon">
-                <img src="assets/images/category/icon3.png" alt="Icon" />
+                <img src="assets/images/category/friedcashew.jpg" alt="Icon" style={{ borderRadius: "50%", height: "100px", width: '100%' }} />
               </div>
               <h5>
-                <Link href="/services">Sea Fish’s</Link>
+                <Link href="/services">Raw Cashew Nuts</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
             <div className="category-item wow fadeInUp delay-0-6s">
               <div className="icon">
-                <img src="assets/images/category/icon4.png" alt="Icon" />
+                <img src="assets/images/category/urea.jpg" alt="Icon" style={{ borderRadius: "50%", height: "100px", width: '100%' }} />
               </div>
               <h5>
-                <Link href="/services">Crisp Bakery</Link>
+                <Link href="/services">Urea</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
             <div className="category-item wow fadeInUp delay-0-7s">
               <div className="icon">
-                <img src="assets/images/category/icon5.png" alt="Icon" />
+                <img src="assets/images/category/furnituregradeplywood.jpg" alt="Icon" style={{ borderRadius: "50%", height: "100px", width: '100%' }} />
               </div>
               <h5>
-                <Link href="/services">Chiken Egg</Link>
+                <Link href="/services">Furniture Grade</Link>
+                {/* Furniture Grade */}
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -118,7 +119,7 @@ const Index = () => {
                     <img src="assets/images/about/about1.jpg" alt="About" />
                   </div>
                   <div className="col-6">
-                    <img src="assets/images/about/about2.jpg" alt="About" />
+                    <img src="assets/images/about/ureaChemical.png" alt="About" />
                     <img src="assets/images/about/about3.jpg" alt="About" />
                   </div>
                 </div>
@@ -131,40 +132,44 @@ const Index = () => {
               <div className="about-content rpt-65 wow fadeInRight delay-0-2s">
                 <div className="section-title mb-35">
                   <span className="sub-title mb-20">About Company</span>
-                  <h2>Organic &amp; Helathy Foods Provider Farming</h2>
+                  <h2>Welcome To Redx</h2>
                 </div>
-                <Tab.Container defaultActiveKey={"agriculture"}>
-                  <Nav className="nav jusctify-content-between">
-                    <li>
-                      <Nav.Link
+                <Tab.Container defaultActiveKey={"agriculture"} >
+                  <Nav className="nav jusctify-content-between  ">
+                    <div className="d-flex">
+                      <li>
+                        <h4>Agriculture <br /> Product</h4>
+                        {/* <Nav.Link
                         eventKey="agriculture"
                         className="nav-link"
                         data-toggle="tab"
                         href="#agriculture"
                       >
                         <i className="flaticon-spa" />
-                        <h4>
-                          Agriculture
-                          <br />
-                          &amp; Foods
-                        </h4>
-                      </Nav.Link>
-                    </li>
-                    <li>
-                      <Nav.Link
+                        <h4>Agriculture <br /> Product</h4>
+                      </Nav.Link> */}
+                      </li>
+                      <li>
+                        <h4> Agro <br /> Chemical</h4>
+                        {/* <Nav.Link
                         eventKey="vegetables"
                         className="nav-link"
                         data-toggle="tab"
                         href="#vegetables"
                       >
                         <i className="flaticon-spa" />
-                        <h4>
-                          Vegetables
-                          <br />
-                          &amp; Fruits
+                        <h4> Agro <br /> Chemical</h4>
+                      </Nav.Link> */}
+                      </li>
+                      <li>
+                        <h4>Industrial Product
                         </h4>
-                      </Nav.Link>
-                    </li>
+                      </li>
+                      <li>
+                        <h4>Plywood Product
+                        </h4>
+                      </li>
+                    </div>
                   </Nav>
                   <Tab.Content className="tab-content pt-25">
                     <Tab.Pane className="tab-pane fade" eventKey="agriculture">
@@ -225,22 +230,22 @@ const Index = () => {
           <div className="row">
             <div className="col-xl-4 col-md-6">
               <div className="offer-banner-item color-two wow fadeInUp delay-0-2s">
-                <div className="content">
-                  <span className="sub-title">35% Off Foods</span>
-                  <h4>Organic Vegetables</h4>
-                  <p>Best Foods For Your Family</p>
+                <div>
+
+                  <h4>Value Chain</h4>
+                  <p>Our seamless collaboration across each business stage ensures the exceptional delivery of products and services.</p>
                   <Link href="/shop-grid">
                     <a className="theme-btn style-two">
                       Shop Now <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>
-                <div className="image">
+                {/* <div className="image">
                   <img
                     src="assets/images/offers/offer-banner1.png"
                     alt="Offer Banner"
                   />
-                </div>
+                </div> */}
                 <img
                   className="offer-bg"
                   src="assets/images/offers/offer-baner-bg1.png"
@@ -250,22 +255,21 @@ const Index = () => {
             </div>
             <div className="col-xl-4 col-md-6">
               <div className="offer-banner-item wow fadeInUp delay-0-4s">
-                <div className="content">
-                  <span className="sub-title">35% Off Foods</span>
-                  <h4>Fresh Organic Fruits</h4>
-                  <p>Best Foods For Your Family</p>
+                <div >
+                  <h4>Sustainability</h4>
+                  <p>Environmental responsibility is ingrained in our operations, minimizing our carbon footprint for a healthier planet.</p>
                   <Link href="/shop-grid">
                     <a className="theme-btn style-two">
                       Shop Now <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>
-                <div className="image">
+                {/* <div className="image">
                   <img
                     src="assets/images/offers/offer-banner2.png"
                     alt="Offer Banner"
                   />
-                </div>
+                </div> */}
                 <img
                   className="offer-bg"
                   src="assets/images/offers/offer-baner-bg2.png"
@@ -275,22 +279,21 @@ const Index = () => {
             </div>
             <div className="col-xl-4 col-md-6">
               <div className="offer-banner-item color-three wow fadeInUp delay-0-6s">
-                <div className="content">
-                  <span className="sub-title">35% Off Foods</span>
-                  <h4>Ripe Strawberries</h4>
-                  <p>Best Foods For Your Family</p>
+                <div>
+                  <h4>Our Business</h4>
+                  <p>A commitment to excellence, a diverse product range, and a deep focus on well-being – we go beyond transactions creating lasting impacts.</p>
                   <Link href="/shop-grid">
                     <a className="theme-btn style-two">
                       Shop Now <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>
-                <div className="image">
+                {/* <div className="image">
                   <img
                     src="assets/images/offers/offer-banner3.png"
                     alt="Offer Banner"
                   />
-                </div>
+                </div> */}
                 <img
                   className="offer-bg"
                   src="assets/images/offers/offer-baner-bg3.png"

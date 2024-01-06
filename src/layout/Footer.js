@@ -54,7 +54,7 @@ const DefaultFooter = () => (
             <div className="footer-logo mb-30">
               <Link href="/">
                 <a>
-                  <img src="assets/images/logos/logo.png" alt="Logo" />
+                  <img src="assets/images/logos/logo.png" alt="Logo" style={{ height: "60px", width: '60px' }} />
                 </a>
               </Link>
             </div>

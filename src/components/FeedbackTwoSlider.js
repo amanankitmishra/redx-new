@@ -54,7 +54,7 @@ const FeedbackTwoSlider = () => {
             />
             <img
               className="bg"
-              src="assets/images/reviews/feedback-author-bg.png"
+              src="assets/images/reviews/feedback-author-bg.png "
               alt="Background"
             />
           </div>
