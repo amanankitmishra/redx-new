@@ -4,10 +4,11 @@ import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
 import ClientLogoSlider from "../src/components/ClientLogoSlider";
 import { HomeSlider1 } from "../src/components/HomeSlider";
-import CustomerReviews from "../src/components/slider/CustomerReviews";
+// import CustomerReviews from "../src/components/slider/CustomerReviews";
 import PhotoGallery from "../src/components/slider/PhotoGallery";
 import Layout from "../src/layout/Layout";
 import { productActive } from "../src/sliderProps";
+import Testimonials from "../src/components/slider/Testimonials";
 const MunfimCountdown = dynamic(
   () => import("../src/components/MunfimCountdown"),
   {
@@ -225,7 +226,7 @@ const Index = () => {
       </section>
       {/* About Section End */}
       {/* Offer Banners Start */}
-      <section className="offer-banners-area">
+      <section className="offer-banners-area ">
         <div className="container-fluid">
           <div className="row">
             <div className="col-xl-4 col-md-6">
@@ -234,9 +235,9 @@ const Index = () => {
 
                   <h4>Value Chain</h4>
                   <p>Our seamless collaboration across each business stage ensures the exceptional delivery of products and services.</p>
-                  <Link href="/shop-grid">
+                  <Link href="/value-chain">
                     <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
+                      Details <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>
@@ -258,9 +259,9 @@ const Index = () => {
                 <div >
                   <h4>Sustainability</h4>
                   <p>Environmental responsibility is ingrained in our operations, minimizing our carbon footprint for a healthier planet.</p>
-                  <Link href="/shop-grid">
+                  <Link href="/sustainability">
                     <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
+                      Details <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>
@@ -282,9 +283,9 @@ const Index = () => {
                 <div>
                   <h4>Our Business</h4>
                   <p>A commitment to excellence, a diverse product range, and a deep focus on well-being – we go beyond transactions creating lasting impacts.</p>
-                  <Link href="/shop-grid">
+                  <Link href="/our-business">
                     <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
+                      Details <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>
@@ -310,95 +311,29 @@ const Index = () => {
         <div className="container-fluid">
           <div className="section-title text-center mb-60">
             <span className="sub-title mb-20">
-              Popular Foods and Vegetables
+
             </span>
-            <h2>Quality Fruits &amp; Vegetables</h2>
+            <h2>Product</h2>
           </div>
           <Slider {...productActive} className="product-active">
             <div className="product-item wow fadeInUp delay-0-2s">
-              <span className="offer">53 Off</span>
-              <div className="image">
-                <img src="assets/images/products/product1.png" alt="Product" />
-              </div>
-              <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
-                <h5>
-                  <Link href="/product-details">Organic Brocolli</Link>
-                </h5>
-                <span className="price">
-                  <del>25</del>
-                  <span>18</span>
-                </span>
+              <div >
+                <img src="assets/images/gellery/Rise.jpg" alt="Product" style={{ height: "300px", width: "100%" }} />
               </div>
             </div>
-            <div className="product-item wow fadeInUp delay-0-3s">
-              <div className="image">
-                <img src="assets/images/products/product2.png" alt="Product" />
-              </div>
-              <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
-                <h5>
-                  <Link href="/product-details">Fresh Carrots</Link>
-                </h5>
-                <span className="price">
-                  <span>49.58</span>
-                </span>
+            <div className="product-item wow fadeInUp delay-0-2s" >
+              <div>
+                <img src="assets/images/gellery/blackPaper.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-4s">
-              <span className="offer bg-red">sale</span>
-              <div className="image">
-                <img src="assets/images/products/product3.png" alt="Product" />
-              </div>
-              <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
-                <h5>
-                  <Link href="/product-details">Organic Brocolli</Link>
-                </h5>
-                <span className="price">
-                  <del>25</del>
-                  <span>18</span>
-                </span>
+              <div >
+                <img src="assets/images/gellery/CashewNuts.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-5s">
-              <span className="offer">20 Off</span>
-              <div className="image">
-                <img src="assets/images/products/product4.png" alt="Product" />
-              </div>
-              <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
-                <h5>
-                  <Link href="/product-details">Chiken Egg</Link>
-                </h5>
-                <span className="price">
-                  <del>55</del>
-                  <span>36</span>
-                </span>
+              <div>
+                <img src="assets/images/gellery/urea.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-6s">
@@ -470,7 +405,7 @@ const Index = () => {
       </section>
       {/* Product Section End */}
       {/* Video Area Start */}
-      <div className="video-area">
+      {/* <div className="video-area">
         <div className="container">
           <div
             className="video-inner wow fadeInUp delay-0-2s"
@@ -486,21 +421,20 @@ const Index = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Video Area End */}
-      {/* Special Offer Start */}
-      <section className="special-offer bg-lighter pt-250 pb-80">
+      {/* Counters Start */}
+      <section className="special-offer bg-lighter pt-10 pb-80 ">
         <div className="special-offer-content text-center py-130 rpy-100 wow fadeInUp delay-0-2s">
-          <div className="section-title mb-30">
-            <span className="sub-title mb-20">35% Off for Fruits</span>
-            <h2>Special Deal Of This Week</h2>
+          <div className="section-title mb-30 mr-5" >
+            {/* <span className="sub-title mb-20">35% Off for Fruits</span> */}
+            <h2>Our Business in Numbers</h2>
           </div>
           <p>
-            On the other hand we denounce with righteous indignation and dislike
-            men who are beguiled and demoralized by the charms
+            We pride ourselves on our extensive product range, spanning across 21 categories that include agricultural commodities, processed Agri products, Agri Inputs, Industrial Chemicals, and FMCG food products.
           </p>
           <MunfimCountdown />
-          <div className="count-down-btns mt-10">
+          {/* <div className="count-down-btns mt-10">
             <Link href="/shop-grid">
               <a className="theme-btn">
                 Shop Now <i className="fas fa-angle-double-right" />
@@ -511,7 +445,7 @@ const Index = () => {
                 use code <i className="fas fa-angle-double-right" />
               </a>
             </Link>
-          </div>
+          </div> */}
         </div>
         <img
           className="offer-bg"
@@ -528,18 +462,18 @@ const Index = () => {
           src="assets/images/shapes/litchi.png"
           alt="Litchi"
         />
-        <img
+        {/* <img
           className="special-offer-left"
-          src="assets/images/offers/offer-left.png"
+          src="assets/images/offers/9"
           alt="Offer"
-        />
+        /> */}
         <img
           className="special-offer-right"
-          src="assets/images/offers/offer-right.png"
+          src="assets/images/offers/tractor.png"
           alt="Offer"
         />
       </section>
-      {/* Special Offer End */}
+      {/* Counters End */}
       {/* Call To Action Area Start */}
       <section className="cta-area">
         <div className="container">
@@ -569,16 +503,16 @@ const Index = () => {
       </section>
       {/* Call To Action Area End */}
       {/* Gallery Area Start */}
-      <section className="gallery-area pt-130 rpt-100">
+      {/* <section className="gallery-area pt-130 rpt-100">
         <PhotoGallery />
-      </section>
+      </section> */}
       {/* Gallery Area End */}
       {/* Feedback Section Start */}
       <section className="feedback-section pt-50 rpt-20">
         <div className="container">
           <div className="row large-gap">
             <div className="col-lg-6">
-              <CustomerReviews />
+              <Testimonials />
             </div>
             <div className="col-lg-6">
               <div className="feedback-images wow fadeInRight delay-0-2s">
@@ -587,11 +521,11 @@ const Index = () => {
                   src="assets/images/reviews/feedback-right.jpg"
                   alt="Feedback"
                 />
-                <img
+                {/* <img
                   className="last-image"
                   src="assets/images/reviews/feedback-right.png"
                   alt="Feedback"
-                />
+                /> */}
                 <img
                   className="bg-image"
                   src="assets/images/shapes/feedback-bg.png"

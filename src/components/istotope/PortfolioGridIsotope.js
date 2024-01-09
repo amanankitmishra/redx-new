@@ -58,29 +58,30 @@ const PortfolioGridIsotope = () => {
                 className={`c-pointer ${activeBtn("fruits")}`}
                 onClick={handleFilterKeyChange("fruits")}
               >
-                Fruits
+                Agriculture
               </li>
               <li
                 data-filter=".vegetables"
                 className={`c-pointer ${activeBtn("vegetables")}`}
                 onClick={handleFilterKeyChange("vegetables")}
               >
-                Vegetables
+                Agro
               </li>
               <li
                 data-filter=".bread"
                 className={`c-pointer ${activeBtn("bread")}`}
                 onClick={handleFilterKeyChange("bread")}
               >
-                Bread
+                Industrial
               </li>
               <li
                 data-filter=".milk"
                 className={`c-pointer ${activeBtn("milk")}`}
                 onClick={handleFilterKeyChange("milk")}
               >
-                Milk &amp; Eggs
+                PlyWood
               </li>
+
             </ul>
           </div>
         </div>

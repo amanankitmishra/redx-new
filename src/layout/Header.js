@@ -51,25 +51,31 @@ const DaskTopMenu = () => (
         <span className="fas fa-chevron-down" />
       </div> */}
     </li>
-    <li className="dropdown">
-      <a href="#">pages</a>
-      <ul>
+
+    {/* <li className="dropdown"> */}
+    <li>
+      <Link href="/about">About us</Link>
+      {/* <ul>
         <PagesDasktop />
-      </ul>
-      <div className="dropdown-btn">
+      </ul> */}
+      {/* <div className="dropdown-btn">
         <span className="fas fa-chevron-down" />
-      </div>
+      </div> */}
     </li>
-    <li className="dropdown">
-      <a href="#">portfolio</a>
-      <ul>
+    <li>
+      <Link href="/product">Product Page</Link>
+      {/* <ul>
         <Portfolio />
-      </ul>
-      <div className="dropdown-btn">
-        <span className="fas fa-chevron-down" />
-      </div>
+      </ul> */}
+
     </li>
-    <li className="dropdown">
+    <li>
+      <Link href="/gallery">Gallery</Link>
+
+
+    </li>
+
+    {/* <li className="dropdown">
       <a href="#">blog</a>
       <ul>
         <Blog />
@@ -77,8 +83,8 @@ const DaskTopMenu = () => (
       <div className="dropdown-btn">
         <span className="fas fa-chevron-down" />
       </div>
-    </li>
-    <li className="dropdown">
+    </li> */}
+    {/* <li className="dropdown">
       <a href="#">shop</a>
       <ul>
         <Shop />
@@ -86,7 +92,7 @@ const DaskTopMenu = () => (
       <div className="dropdown-btn">
         <span className="fas fa-chevron-down" />
       </div>
-    </li>
+    </li> */}
     <Contact />
   </ul>
 );
@@ -159,16 +165,16 @@ const DefaultHeader = () => (
                   </li>
                   <li>
                     <div className="social-style-one">
-                      <a href="#">
+                      <a href="https://www.facebook.com/">
                         <i className="fab fa-facebook-f" />
                       </a>
-                      <a href="#">
+                      <a href="https://twitter.com/i/flow/login">
                         <i className="fab fa-twitter" />
                       </a>
-                      <a href="#">
+                      <a href="https://www.youtube.com/">
                         <i className="fab fa-youtube" />
                       </a>
-                      <a href="#">
+                      <a href="https://www.instagram.com/accounts/login/">
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -209,13 +215,13 @@ const DefaultHeader = () => (
             <div className="nav-search py-15">
               <SearchBtn />
             </div>
-            <button className="cart">
+            {/* <button className="cart">
               <i className="far fa-shopping-basket" />
               <span>5</span>
             </button>
             <button className="user">
               <i className="far fa-user-circle" />
-            </button>
+            </button> */}
             <Link href="/contact">
               <a className="theme-btn">
                 Consultations <i className="fas fa-angle-double-right" />
@@ -265,16 +271,16 @@ const Header1 = () => (
                   </li>
                   <li>
                     <div className="social-style-one">
-                      <a href="#">
+                      <a href="https://www.facebook.com/">
                         <i className="fab fa-facebook-f" />
                       </a>
-                      <a href="#">
+                      <a href="https://twitter.com/i/flow/login">
                         <i className="fab fa-twitter" />
                       </a>
-                      <a href="#">
+                      <a href="https://www.youtube.com/">
                         <i className="fab fa-youtube" />
                       </a>
-                      <a href="#">
+                      <a href="https://www.instagram.com/accounts/login/">
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -316,10 +322,10 @@ const Header1 = () => (
             <div className="nav-search py-15">
               <SearchBtn />
             </div>
-            <button className="cart">
+            {/* <button className="cart">
               <i className="far fa-shopping-basket" />
               <span>5</span>
-            </button>
+            </button> */}
             <button className="user">
               <i className="far fa-user-circle" />
             </button>

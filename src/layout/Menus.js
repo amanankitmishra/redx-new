@@ -17,10 +17,13 @@ export const Home = () => (
 
 export const PagesDasktop = () => (
   <Fragment>
-    <li>
+    {/* <li>
+      <Link href="/product">Product Page</Link>
+    </li> */}
+    {/* <li>
       <Link href="/about">About us</Link>
-    </li>
-    <li className="dropdown">
+    </li> */}
+    {/* <li className="dropdown">
       <a href="#">services</a>
       <ul>
         <li>
@@ -33,13 +36,13 @@ export const PagesDasktop = () => (
       <div className="dropdown-btn">
         <span className="fas fa-chevron-down" />
       </div>
-    </li>
-    <li>
+    </li> */}
+    {/* <li>
       <Link href="/faqs">faqs</Link>
     </li>
     <li>
       <Link href="/farmers">Farmers</Link>
-    </li>
+    </li> */}
     <li>
       <Link href="/404">404 error</Link>
     </li>
@@ -69,15 +72,15 @@ export const PagesMobile = () => (
 );
 export const Portfolio = () => (
   <Fragment>
-    <li>
+    {/* <li>
       <Link href="/portfolio-grid">Portfolio grid</Link>
-    </li>
-    <li>
+    </li> */}
+    {/* <li>
       <Link href="/portfolio-fluid">Portfolio Fluid</Link>
     </li>
     <li>
       <Link href="/portfolio-details">Portfolio details</Link>
-    </li>
+    </li> */}
   </Fragment>
 );
 export const Blog = () => (

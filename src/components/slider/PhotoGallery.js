@@ -63,8 +63,8 @@ export default class PhotoGallery extends Component {
             ref={(c) => (this.slider = c)}
             className="gallery-active"
           >
-            <div className="gallery-item wow fadeInUp delay-0-2s">
-              <img src="assets/images/gellery/gallery1.jpg" alt="Gallery" />
+            <div className="gallery-item wow fadeInUp delay-0-2s ">
+              <img src="assets/images/gellery/Rise.jpg" alt="Gallery" height={"440px"} width={"300px"} />
               <div className="gallery-over">
                 <div className="content">
                   <h4>Organic Fruits</h4>
@@ -78,7 +78,7 @@ export default class PhotoGallery extends Component {
               </div>
             </div>
             <div className="gallery-item big-item wow fadeInUp delay-0-4s">
-              <img src="assets/images/gellery/gallery2.jpg" alt="Gallery" />
+              <img src="assets/images/gellery/blackPaper.webp" alt="Gallery" height={"440px"} width={"480px"} />
               <div className="gallery-over">
                 <div className="content">
                   <h4>Organic Fruits Juice</h4>
@@ -92,7 +92,7 @@ export default class PhotoGallery extends Component {
               </div>
             </div>
             <div className="gallery-item wow fadeInUp delay-0-6s">
-              <img src="assets/images/gellery/gallery3.jpg" alt="Gallery" />
+              <img src="assets/images/gellery/CashewNuts.jpg" alt="Gallery" height={"440px"} width={"380px"} />
               <div className="gallery-over">
                 <div className="content">
                   <h4>Organic Fruits</h4>
@@ -106,7 +106,7 @@ export default class PhotoGallery extends Component {
               </div>
             </div>
             <div className="gallery-item wow fadeInUp delay-0-8s">
-              <img src="assets/images/gellery/gallery4.jpg" alt="Gallery" />
+              <img src="assets/images/gellery/urea.jpg" alt="Gallery" height={"440px"} width={"490px"} />
               <div className="gallery-over">
                 <div className="content">
                   <h4>Organic Fruits</h4>

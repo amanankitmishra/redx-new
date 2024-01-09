@@ -2,8 +2,8 @@ import Link from "next/link";
 import ClientLogoSlider from "../src/components/ClientLogoSlider";
 import PageBanner from "../src/components/PageBanner";
 import ProgressBar from "../src/components/ProgressBar";
-import CustomerReviews from "../src/components/slider/CustomerReviews";
 import Layout from "../src/layout/Layout";
+import Testimonials from "../src/components/slider/Testimonials";
 const Services = () => {
   return (
     <Layout>
@@ -296,7 +296,7 @@ const Services = () => {
         <div className="container">
           <div className="row large-gap">
             <div className="col-lg-6">
-              <CustomerReviews />
+              <Testimonials />
             </div>
             <div className="col-lg-6">
               <div className="feedback-images wow fadeInRight delay-0-2s">
