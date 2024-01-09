@@ -323,12 +323,12 @@ const Index = () => {
             </div>
             <div className="product-item wow fadeInUp delay-0-2s" >
               <div>
-                <img src="assets/images/gellery/blackPaper.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
+                <img src="assets/images/gellery/AgriblackPaper.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-4s">
               <div >
-                <img src="assets/images/gellery/CashewNuts.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
+                <img src="assets/images/gellery/AgriCashewNuts.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-5s">
@@ -336,70 +336,22 @@ const Index = () => {
                 <img src="assets/images/gellery/urea.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
               </div>
             </div>
-            <div className="product-item wow fadeInUp delay-0-6s">
-              <div className="image">
-                <img src="assets/images/products/product5.png" alt="Product" />
-              </div>
-              <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
-                <h5>
-                  <Link href="/product-details">Fresh Gooseberry</Link>
-                </h5>
-                <span className="price">
-                  <span>205</span>
-                </span>
+            <div className="product-item wow fadeInUp delay-0-5s">
+              <div>
+                <img src="assets/images/gellery/furnituregradeplywood.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
               </div>
             </div>
-            <div className="product-item wow fadeInUp delay-0-7s">
-              <span className="offer">53 Off</span>
-              <div className="image">
-                <img src="assets/images/products/product6.png" alt="Product" />
-              </div>
-              <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
-                <h5>
-                  <Link href="/product-details">Fresh Croissants</Link>
-                </h5>
-                <span className="price">
-                  <del>25</del>
-                  <span>18</span>
-                </span>
+            <div className="product-item wow fadeInUp delay-0-5s">
+              <div>
+                <img src="assets/images/gellery/AgrihRise(1).jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
               </div>
             </div>
-            <div className="product-item wow fadeInUp delay-0-8s">
-              <span className="offer">25 Off</span>
-              <div className="image">
-                <img src="assets/images/products/product7.png" alt="Product" />
-              </div>
-              <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
-                <h5>
-                  <Link href="/product-details">Chiken Egg’s</Link>
-                </h5>
-                <span className="price">
-                  <del>25</del>
-                  <span>18</span>
-                </span>
+            <div className="product-item wow fadeInUp delay-0-5s">
+              <div>
+                <img src="assets/images/gellery/portfolio11.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
               </div>
             </div>
+
           </Slider>
         </div>
       </section>

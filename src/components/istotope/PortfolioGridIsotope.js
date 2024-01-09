@@ -54,30 +54,30 @@ const PortfolioGridIsotope = () => {
                 Show All
               </li>
               <li
-                data-filter=".fruits"
-                className={`c-pointer ${activeBtn("fruits")}`}
-                onClick={handleFilterKeyChange("fruits")}
+                data-filter=".Agriculture"
+                className={`c-pointer ${activeBtn("Agriculture")}`}
+                onClick={handleFilterKeyChange("Agriculture")}
               >
                 Agriculture
               </li>
               <li
-                data-filter=".vegetables"
-                className={`c-pointer ${activeBtn("vegetables")}`}
-                onClick={handleFilterKeyChange("vegetables")}
+                data-filter=".Agro"
+                className={`c-pointer ${activeBtn("Agro")}`}
+                onClick={handleFilterKeyChange("Agro")}
               >
                 Agro
               </li>
               <li
-                data-filter=".bread"
-                className={`c-pointer ${activeBtn("bread")}`}
-                onClick={handleFilterKeyChange("bread")}
+                data-filter=".Industrial"
+                className={`c-pointer ${activeBtn("Industrial")}`}
+                onClick={handleFilterKeyChange("Industrial")}
               >
                 Industrial
               </li>
               <li
-                data-filter=".milk"
-                className={`c-pointer ${activeBtn("milk")}`}
-                onClick={handleFilterKeyChange("milk")}
+                data-filter=".Plywood"
+                className={`c-pointer ${activeBtn("Plywood")}`}
+                onClick={handleFilterKeyChange("Plywood")}
               >
                 PlyWood
               </li>
@@ -86,119 +86,131 @@ const PortfolioGridIsotope = () => {
           </div>
         </div>
         <div className="row portfolio-active">
-          <div className="col-lg-4 col-sm-6 item vegetables">
+          <div className="col-lg-4 col-sm-6 item Agriculture">
             <div className="gallery-style-two wow fadeInUp delay-0-2s">
-              <img src="assets/images/gellery/portfolio1.jpg" alt="Portfolio" />
+              <img src="assets/images/gellery/AgriblackPaper.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
                   <span className="category">Foods</span>
-                  <h4>
-                    <Link href="/portfolio-details">Organic Fruits</Link>
-                  </h4>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-sm-6 item fruits bread">
-            <div className="gallery-style-two wow fadeInUp delay-0-4s">
-              <img src="assets/images/gellery/portfolio2.jpg" alt="Portfolio" />
-              <div className="gallery-over">
-                <div className="content">
-                  <span className="category">Foods</span>
-                  <h4>
-                    <Link href="/portfolio-details">Organic Fruits</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-sm-6 item vegetables milk">
+          <div className="col-lg-4 col-sm-6 item Agro">
             <div className="gallery-style-two wow fadeInUp delay-0-6s">
-              <img src="assets/images/gellery/portfolio3.jpg" alt="Portfolio" />
+              <img src="assets/images/gellery/TreeUrea.avif" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
                   <span className="category">Foods</span>
-                  <h4>
-                    <Link href="/portfolio-details">Organic Fruits</Link>
-                  </h4>
+
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-sm-6 item fruits">
-            <div className="gallery-style-two wow fadeInUp delay-0-2s">
-              <img src="assets/images/gellery/portfolio4.jpg" alt="Portfolio" />
-              <div className="gallery-over">
-                <div className="content">
-                  <span className="category">Foods</span>
-                  <h4>
-                    <Link href="/portfolio-details">Organic Fruits</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-sm-6 item bread milk">
+          <div className="col-lg-4 col-sm-6 item fruits Agriculture">
             <div className="gallery-style-two wow fadeInUp delay-0-4s">
-              <img src="assets/images/gellery/portfolio5.jpg" alt="Portfolio" />
+              <img src="assets/images/gellery/AgriCashewNuts.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
                   <span className="category">Foods</span>
-                  <h4>
-                    <Link href="/portfolio-details">Organic Fruits</Link>
-                  </h4>
+
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-sm-6 item vegetables">
+          <div className="col-lg-4 col-sm-6 item fruits Agro">
+            <div className="gallery-style-two wow fadeInUp delay-0-4s">
+              <img src="assets/images/gellery/nitrogen.jpg" alt="Portfolio" />
+              <div className="gallery-over">
+                <div className="content">
+                  <span className="category">Foods</span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-sm-6 item fruits Agriculture">
+            <div className="gallery-style-two wow fadeInUp delay-0-4s">
+              <img src="assets/images/gellery/icumsa100.webp" alt="Portfolio" />
+              <div className="gallery-over">
+                <div className="content">
+                  <span className="category">Foods</span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-sm-6 item  Agro">
             <div className="gallery-style-two wow fadeInUp delay-0-6s">
-              <img src="assets/images/gellery/portfolio6.jpg" alt="Portfolio" />
+              <img src="assets/images/gellery/urea.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
                   <span className="category">Foods</span>
-                  <h4>
-                    <Link href="/portfolio-details">Organic Fruits</Link>
-                  </h4>
+
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-sm-6 item fruits">
+          <div className="col-lg-4 col-sm-6 item Plywood">
             <div className="gallery-style-two wow fadeInUp delay-0-2s">
-              <img src="assets/images/gellery/portfolio7.jpg" alt="Portfolio" />
+              <img src="assets/images/gellery/furnituregradeplywood.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
                   <span className="category">Foods</span>
-                  <h4>
-                    <Link href="/portfolio-details">Organic Fruits</Link>
-                  </h4>
+
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-sm-6 item vegetables">
+          <div className="col-lg-4 col-sm-6 item bread Agriculture">
+            <div className="gallery-style-two wow fadeInUp delay-0-4s">
+              <img src="assets/images/gellery/AgrihRise(1).jpg" alt="Portfolio" />
+              <div className="gallery-over">
+                <div className="content">
+                  <span className="category">Foods</span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-sm-6 item Agriculture">
+            <div className="gallery-style-two wow fadeInUp delay-0-2s">
+              <img src="assets/images/gellery/blackPaper.webp" alt="Portfolio" />
+              <div className="gallery-over">
+                <div className="content">
+                  <span className="category">Foods</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-sm-6 item Industrial">
+            <div className="gallery-style-two wow fadeInUp delay-0-2s">
+              <img src="assets/images/gellery/pvcresin.jpg" alt="Portfolio" />
+              <div className="gallery-over">
+                <div className="content">
+                  <span className="category">Foods</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-sm-6 item Agriculture">
             <div className="gallery-style-two wow fadeInUp delay-0-4s">
               <img src="assets/images/gellery/portfolio8.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
                   <span className="category">Foods</span>
-                  <h4>
-                    <Link href="/portfolio-details">Organic Fruits</Link>
-                  </h4>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-sm-6 item fruits milk">
+          <div className="col-lg-4 col-sm-6 item fruits Agriculture">
             <div className="gallery-style-two wow fadeInUp delay-0-6s">
               <img src="assets/images/gellery/portfolio9.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
                   <span className="category">Foods</span>
-                  <h4>
-                    <Link href="/portfolio-details">Organic Fruits</Link>
-                  </h4>
                 </div>
               </div>
             </div>
@@ -212,9 +224,7 @@ const PortfolioGridIsotope = () => {
               <div className="gallery-over">
                 <div className="content">
                   <span className="category">Foods</span>
-                  <h4>
-                    <Link href="/portfolio-details">Organic Fruits</Link>
-                  </h4>
+
                 </div>
               </div>
             </div>
@@ -225,20 +235,13 @@ const PortfolioGridIsotope = () => {
                 src="assets/images/gellery/portfolio11.jpg"
                 alt="Portfolio"
               />
-              <div className="gallery-over">
-                <div className="content">
-                  <span className="category">Foods</span>
-                  <h4>
-                    <Link href="/portfolio-details">Organic Fruits</Link>
-                  </h4>
-                </div>
-              </div>
+
             </div>
           </div>
           <div className="col-lg-4 col-sm-6 item fruits">
             <div className="gallery-style-two wow fadeInUp delay-0-6s">
               <img
-                src="assets/images/gellery/portfolio12.jpg"
+                src="assets/images/gellery/Rise.jpg"
                 alt="Portfolio"
               />
               <div className="gallery-over">
@@ -253,13 +256,7 @@ const PortfolioGridIsotope = () => {
           </div>
         </div>
       </div>
-      <div className="portfolio-more-btn text-center pt-15">
-        <Link href="/portfolio-fluid">
-          <a className="theme-btn style-three mt-15">
-            View More <i className="fas fa-angle-double-right" />
-          </a>
-        </Link>
-      </div>
+
     </section>
   );
 };

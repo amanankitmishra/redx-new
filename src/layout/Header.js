@@ -105,7 +105,7 @@ const Nav = () => {
         <div className="mobile-logo my-15 h-25 w-25" >
           <Link href="/">
             <a>
-              <img src="assets/images/logos/logo.png" alt="Logo" title="Logo" style={{ height: '20px', width: '20px' }} />
+              <img src="assets/images/logos/logo.png" alt="Logo" className="img" title="Logo" style={{ height: '50px', width: '50px' }} />
               <img
                 src="assets/images/logos/logo-white.png"
                 alt="Logo"
@@ -191,10 +191,11 @@ const DefaultHeader = () => (
       <div className="container-fluid clearfix">
         <div className="header-inner d-flex align-items-center ">
           <div className="logo-outer">
-            <div className="logo ">
+            <div className="logo ml-10 ">
               <Link href="/">
                 <a>
                   <img
+                    className="img"
                     src="assets/images/logos/logo.png"
                     alt="Logo"
                     title="Logo"

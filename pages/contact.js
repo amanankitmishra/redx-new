@@ -158,7 +158,7 @@ const ContactUs = () => {
             <div className="col-lg-6">
               <div className="contact-right-image wow fadeInRight delay-0-4s">
                 <img
-                  src="assets/images/contact/contact-right.png"
+                  src="assets/images/contact/contacts.png"
                   alt="Contact From"
                 />
                 <img

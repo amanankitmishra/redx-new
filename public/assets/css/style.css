@@ -681,6 +681,18 @@ a.theme-btn.btn-white {
   border-color: #ff7800;
 }
 
+/* LogoDesign */
+
+.img {
+  transition: transform 0.3s ease-out,
+    box-shadow 0.3s ease-out;
+}
+
+.img:hover {
+  box-shadow: 0 0 5px orangered;
+  transform: scale(1.2);
+}
+
 /* Rating */
 .ratting {
   display: -webkit-inline-box;
@@ -10313,11 +10325,18 @@ blockquote:after {
   width: 50%;
 }
 
+
 .footer-logo a {
   background: white;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
   border-radius: 7px;
-  padding: 20px 35px;
+  padding: 10px 15px;
   display: inline-block;
+}
+
+.footer-logo a:hover {
+  box-shadow: 15 15 30px red;
+  transform: scale(1.2);
 }
 
 .contact-widget {

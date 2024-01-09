@@ -106,87 +106,75 @@ const About = () => {
       </section>
       {/* About Section End */}
       {/* Features Section Start */}
-      <section className="feature-section pb-100 rpb-70 rel z-1">
-        <div className="container">
+      <section className="feature-section rel z-1" style={{ padding: "0px 100px 100px 100px" }}>
+        <div className="container-flud">
           <div className="row">
             <div className="col-xl-4 col-md-6">
               <div className="feature-item wow fadeInUp delay-0-2s">
-                <div className="content">
+                <div className="p-20 text-left">
                   <span className="number">01</span>
-                  <div className="image">
-                    <img
-                      src="assets/images/features/feature1.png"
-                      alt="Feature"
-                    />
+                  <div>
                   </div>
-                  <h4>Organic Vegetables</h4>
+                  <h4>Our Mission</h4>
                   <p>
-                    Quis autem vel eum reprehenderit quiea voluptate velit esse
-                    quam niyate smolestiae consequatur nulla
+                    RedX is dedicated to revolutionizing the agricultural, industrial, agro-chemical, and plywood sectors. Our mission is to provide high-quality, sustainable solutions that enhance productivity, ensuring a balance between technological innovation and environmental responsibility. Committed to customer satisfaction, we strive to be a trusted partner in growth for businesses worldwide. By fostering innovation, ethical practices, and community development, we aim to contribute to a resilient and prosperous global landscape. RedX — Transforming industries, cultivating sustainability, and building a future for generations to come.
                   </p>
                 </div>
-                <Link href="/service-details">
+                {/* <Link href="/service-details">
                   <a className="read-more">
                     Read More <i className="fas fa-angle-double-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
               <div className="feature-item color-two wow fadeInUp delay-0-4s">
-                <div className="content">
+                <div className="p-20 text-left">
                   <span className="number">02</span>
-                  <div className="image">
+                  {/* <div className="image">
                     <img
                       src="assets/images/features/feature2.png"
                       alt="Feature"
                     />
-                  </div>
-                  <h4>Organic Fruits</h4>
+                  </div> */}
+                  <h4>Our Vision</h4>
                   <p>
-                    Quis autem vel eum reprehenderit quiea voluptate velit esse
-                    quam niyate smolestiae consequatur nulla
+                    RedX envisions a sustainable future, pioneering innovation in agriculture, industry, agro-chemicals, and plywood. Guided by excellence, integrity, and environmental stewardship, we strive to redefine industry standards. Committed to empowering communities, our goal is to be a global leader, harmonizing technology and nature. Through cutting-edge solutions, we aim to optimize productivity, promote eco-friendly practices, and contribute to a thriving, interconnected world.
                   </p>
                 </div>
-                <Link href="/service-details">
+                {/* <Link href="/service-details">
                   <a className="read-more">
                     Read More <i className="fas fa-angle-double-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
               <div className="feature-item color-three wow fadeInUp delay-0-6s">
-                <div className="content">
+                <div className="p-20 text-left">
                   <span className="number">03</span>
-                  <div className="image">
+                  {/* <div className="image">
                     <img
                       src="assets/images/features/feature3.png"
                       alt="Feature"
                     />
-                  </div>
-                  <h4>Agriculture &amp; Farming</h4>
+                  </div> */}
+                  <h4>Our Values</h4>
                   <p>
-                    Quis autem vel eum reprehenderit quiea voluptate velit esse
-                    quam niyate smolestiae consequatur nulla
+                    At RedX, our values form the bedrock of our commitment to excellence. Integrity guides every interaction, ensuring transparency and trust. Innovation is our constant pursuit, driving advancements in agricultural, industrial, agro-chemical, and plywood solutions. Sustainability is ingrained in our ethos, promoting environmentally responsible practices. Customer-centricity defines our approach, delivering products that exceed expectations. Collaboration and inclusivity foster a diverse, dynamic, and inspired team. RedX values resilience, embracing challenges as opportunities for growth. Together, these principles underscore our dedication to quality, ethical business practices, and positive global impact.
                   </p>
                 </div>
-                <Link href="/service-details">
+                {/* <Link href="/service-details">
                   <a className="read-more">
                     Read More <i className="fas fa-angle-double-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
         </div>
       </section>
       {/* Features Section End */}
-      {/* Gallery Area Start */}
-      <section className="gallery-area">
-        <PhotoGallery noHeader />
-      </section>
-      {/* Gallery Area End */}
       {/* Team Area Start */}
       <section className="team-area pt-50 rpt-20 pb-95 rpb-65">
         <div className="container">
