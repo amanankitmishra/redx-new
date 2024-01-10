@@ -682,6 +682,12 @@ a.theme-btn.btn-white {
 }
 
 /* LogoDesign */
+.mivi {
+  background-color: rgb(252, 244, 244);
+  padding: "100px";
+
+
+}
 
 .img {
   transition: transform 0.3s ease-out,

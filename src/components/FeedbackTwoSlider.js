@@ -12,7 +12,7 @@ const FeedbackTwoSlider = () => {
           </p>
           <div className="image">
             <img
-              src="assets/images/reviews/feedback-author1.jpg"
+              src="assets/images/reviews/pasport.jpg"
               alt="Authro"
             />
             <img
@@ -49,7 +49,7 @@ const FeedbackTwoSlider = () => {
           </p>
           <div className="image">
             <img
-              src="assets/images/reviews/feedback-author2.jpg"
+              src="assets/images/reviews/pasport.jpg"
               alt="Authro"
             />
             <img
@@ -86,7 +86,7 @@ const FeedbackTwoSlider = () => {
           </p>
           <div className="image">
             <img
-              src="assets/images/reviews/feedback-author1.jpg"
+              src="assets/images/reviews/pasport.jpg"
               alt="Authro"
             />
             <img
@@ -123,7 +123,7 @@ const FeedbackTwoSlider = () => {
           </p>
           <div className="image">
             <img
-              src="assets/images/reviews/feedback-author2.jpg"
+              src="assets/images/reviews/pasport.jpg"
               alt="Authro"
             />
             <img

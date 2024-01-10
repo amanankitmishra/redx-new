@@ -11,7 +11,7 @@ const SideBar = () => {
             <span className="fa fa-times" />
           </div>
           <div className="title">
-            <h4>Get Appointment</h4>
+            <h4>Enquiry</h4>
           </div>
           {/*Appointment Form*/}
           <div className="appointment-form">

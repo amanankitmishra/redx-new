@@ -40,8 +40,8 @@ const PortfolioGridIsotope = () => {
         <div className="row align-items-end pb-40">
           <div className="col-lg-6 wow fadeInUp delay-0-2s">
             <div className="section-title mb-20">
-              <span className="sub-title mb-20">Photo Gallery</span>
-              <h2>Insite Photo Gallery</h2>
+              <span className="sub-title mb-20">Redx Gallery</span>
+              <h2>Redx Photo Gallery</h2>
             </div>
           </div>
           <div className="col-lg-6 text-lg-right wow fadeInUp delay-0-4s">

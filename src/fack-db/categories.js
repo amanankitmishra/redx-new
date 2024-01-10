@@ -7,16 +7,16 @@ export const categories = [
             {
                 id: 1,
                 name: "White Raw Rice",
-                image: "/products/whiterawrice.jpeg",
+                image: "https://5.imimg.com/data5/SELLER/Default/2023/9/340941889/QL/KS/EQ/3418095/white-raw-rice-500x500.jpg",
                 page: 5,
-                description: `Introducing our premium White Raw Rice, a culinary essential that promises to elevate your dining experience with its unmatched quality and purity. Sourced from the finest fields and cultivated with care, our White Raw Rice embodies the natural goodness of pure, unprocessed grains.<br />
+                description: ` Introducing our premium White Raw Rice, a culinary essential that promises to elevate your dining experience with its unmatched quality and purity. Sourced from the finest fields and cultivated with care, our White Raw Rice embodies the natural goodness of pure, unprocessed grains.<br />
                 This immaculate grain is characterized by its pearly white appearance and long, slender grains that cook up into a fluffy and aromatic texture. Ideal for a variety of culinary creations, from traditional dishes to modern fusion cuisine, our White Raw Rice serves as the perfect canvas for your culinary masterpieces.<br />
                 Carefully milled to retain the nutritional integrity of each grain, our White Raw Rice is rich in essential nutrients, including carbohydrates, providing a wholesome energy source for your daily needs. Whether you are preparing a hearty pilaf, a savory curry, or a light and refreshing rice salad, this versatile rice complements a myriad of flavors and culinary styles.`
             },
             {
                 id: 2,
                 name: "White Raw Rice Parboiled",
-                image: "/products/whitericeparboiled.jpeg",
+                image: "../../public/assets/images/products/RiseParboiled.jpg",
                 page: 6,
                 description: "Introducing our premium White Raw Rice Parboiled, a culinary gem that combines the nutritional benefits of parboiling with the purity of unprocessed white rice. Sourced from the finest fields and subjected to a meticulous parboiling process, this rice variant offers a unique combination of texture, taste, and health benefits.<br />Our White Raw Rice Parboiled boasts a distinctive golden hue, a result of the parboiling process, which involves partially boiling the rice in the husk before milling. This not only imparts a beautiful color but also helps retain essential nutrients within the grain, ensuring a wholesome and nutritious dining experience.<br />The long, slender grains of this rice cook up to a fluffy and separate texture, making it an ideal choice for a variety of dishes. Whether you're preparing a classic biryani, a comforting risotto, or a simple pilaf, our White Raw Rice Parboiled lends itself perfectly to diverse culinary creations."
             },

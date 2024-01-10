@@ -20,20 +20,10 @@ export const HomeSlider1 = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="slider-content">
-                <div className="sub-title mb-20">Welcome to Munfirm</div>
+                <div className="sub-title mb-20">Welcome to Redx</div>
                 <h1>Agriculture Farming</h1>
                 <h6>Cultivating Trust, Harvesting Nutrition</h6>
                 <div className="slider-btns mt-30">
-                  <Link href="/shop-grid">
-                    <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link>
-                  <Link href="/about">
-                    <a className="theme-btn style-two">
-                      Learn More <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -105,11 +95,11 @@ export const HomeSlider1 = () => {
             </div>
             <div className="col-lg-6">
               <div className="slider-content">
-                <div className="sub-title mb-20">Welcome to Munfirm</div>
+                <div className="sub-title mb-20">Welcome to Redx</div>
                 <h1>Food Grains</h1>
                 <h6>Driven By Innovation, Delivering on quality.</h6>
                 <div className="slider-btns mt-30">
-                  <Link href="/shop-grid">
+                  {/* <Link href="/shop-grid">
                     <a className="theme-btn style-two">
                       Shop Now <i className="fas fa-angle-double-right" />
                     </a>
@@ -118,7 +108,7 @@ export const HomeSlider1 = () => {
                     <a className="theme-btn style-two">
                       Learn More <i className="fas fa-angle-double-right" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

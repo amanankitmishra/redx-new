@@ -132,43 +132,31 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="about-content rpt-65 wow fadeInRight delay-0-2s">
                 <div className="section-title mb-35">
-                  <span className="sub-title mb-20">About Company</span>
+                  <span className="sub-title mb-20">About Redx</span>
                   <h2>Welcome To Redx</h2>
                 </div>
                 <Tab.Container defaultActiveKey={"agriculture"} >
-                  <Nav className="nav jusctify-content-between  ">
-                    <div className="d-flex">
-                      <li>
-                        <h4>Agriculture <br /> Product</h4>
-                        {/* <Nav.Link
-                        eventKey="agriculture"
-                        className="nav-link"
-                        data-toggle="tab"
-                        href="#agriculture"
-                      >
-                        <i className="flaticon-spa" />
-                        <h4>Agriculture <br /> Product</h4>
-                      </Nav.Link> */}
+                  <Nav className="nav justify-content-between">
+                    <div className="d-flex flex-wrap">
+                      <li className="nav-item">
+                        <Link href="/product">
+                          <h4 style={{ cursor: "pointer" }} className="nav-link" >Agriculture Product</h4>
+                        </Link>
                       </li>
-                      <li>
-                        <h4> Agro <br /> Chemical</h4>
-                        {/* <Nav.Link
-                        eventKey="vegetables"
-                        className="nav-link"
-                        data-toggle="tab"
-                        href="#vegetables"
-                      >
-                        <i className="flaticon-spa" />
-                        <h4> Agro <br /> Chemical</h4>
-                      </Nav.Link> */}
+                      <li className="nav-item">
+                        <Link href="/product">
+                          <h4 style={{ cursor: "pointer" }} className="nav-link" >Agro Chemical</h4>
+                        </Link>
                       </li>
-                      <li>
-                        <h4>Industrial Product
-                        </h4>
+                      <li className="nav-item">
+                        <Link href="/product">
+                          <h4 style={{ cursor: "pointer" }} className="nav-link" >Industrial Product</h4>
+                        </Link>
                       </li>
-                      <li>
-                        <h4>Plywood Product
-                        </h4>
+                      <li className="nav-item">
+                        <Link href="/product">
+                          <h4 className="nav-link" style={{ cursor: "pointer" }} >Plywood Product</h4>
+                        </Link>
                       </li>
                     </div>
                   </Nav>
@@ -180,20 +168,7 @@ const Index = () => {
                         charms of pleasure of the moment so blinded by desire,
                         that they cannot foresee the pain
                       </p>
-                      <div className="author-wrap">
-                        <img
-                          src="assets/images/about/author.jpg"
-                          alt="Authro"
-                        />
-                        <div className="title">
-                          <h4>Michael D. Foreman</h4>
-                          <span>CEO &amp; Founder</span>
-                        </div>
-                        <img
-                          src="assets/images/about/signature.png"
-                          alt="Signature"
-                        />
-                      </div>
+
                     </Tab.Pane>
                     <Tab.Pane className="tab-pane fade" eventKey="vegetables">
                       <p>
@@ -313,7 +288,7 @@ const Index = () => {
             <span className="sub-title mb-20">
 
             </span>
-            <h2>Product</h2>
+            <h2>Products</h2>
           </div>
           <Slider {...productActive} className="product-active">
             <div className="product-item wow fadeInUp delay-0-2s">

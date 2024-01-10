@@ -23,22 +23,24 @@ const SearchBtn = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <Fragment>
-      <button className="far fa-search" onClick={() => setToggle(!toggle)} />
-      <form
-        onSubmit={(e) => e.preventDefault()}
-        action="#"
-        className={`${toggle ? "" : "hide"}`}
-      >
-        <input
-          type="text"
-          placeholder="Search"
-          className="searchbox"
-          required=""
-        />
-        <button type="submit" className="searchbutton far fa-search" />
-      </form>
-    </Fragment>
+    // <Fragment>
+    //   <button className="far fa-search" onClick={() => setToggle(!toggle)} />
+    //   <form
+    //     onSubmit={(e) => e.preventDefault()}
+    //     action="#"
+    //     className={`${toggle ? "" : "hide"}`}
+    //   >
+    //     <input
+    //       type="text"
+    //       placeholder="Search"
+    //       className="searchbox"
+    //       required=""
+    //     />
+    //     <button type="submit" className="searchbutton far fa-search" />
+    //   </form>
+    // </Fragment>
+    <>
+    </>
   );
 };
 const DaskTopMenu = () => (
@@ -63,7 +65,7 @@ const DaskTopMenu = () => (
       </div> */}
     </li>
     <li>
-      <Link href="/product">Product Page</Link>
+      <Link href="/product">Product</Link>
       {/* <ul>
         <Portfolio />
       </ul> */}
@@ -93,7 +95,7 @@ const DaskTopMenu = () => (
         <span className="fas fa-chevron-down" />
       </div>
     </li> */}
-    <Contact />
+    {/* <Contact /> */}
   </ul>
 );
 
@@ -110,7 +112,6 @@ const Nav = () => {
                 src="assets/images/logos/logo-white.png"
                 alt="Logo"
                 title="Logo"
-
               />
             </a>
           </Link>
@@ -165,18 +166,26 @@ const DefaultHeader = () => (
                   </li>
                   <li>
                     <div className="social-style-one">
-                      <a href="https://www.facebook.com/">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="https://twitter.com/i/flow/login">
-                        <i className="fab fa-twitter" />
-                      </a>
-                      <a href="https://www.youtube.com/">
-                        <i className="fab fa-youtube" />
-                      </a>
-                      <a href="https://www.instagram.com/accounts/login/">
-                        <i className="fab fa-instagram" />
-                      </a>
+                      <Link href="/404">
+                        <a >
+                          <i className="fab fa-facebook-f" />
+                        </a>
+                      </Link>
+                      <Link href="/404">
+                        <a >
+                          <i className="fab fa-twitter" />
+                        </a>
+                      </Link>
+                      <Link href="/404">
+                        <a>
+                          <i className="fab fa-youtube" />
+                        </a>
+                      </Link>
+                      <Link href="/404">
+                        <a>
+                          <i className="fab fa-instagram" />
+                        </a>
+                      </Link>
                     </div>
                   </li>
                 </ul>
@@ -213,9 +222,9 @@ const DefaultHeader = () => (
           {/* Menu Button */}
           <div className="menu-icons">
             {/* Nav Search */}
-            <div className="nav-search py-15">
+            {/* <div className="nav-search py-15">
               <SearchBtn />
-            </div>
+            </div> */}
             {/* <button className="cart">
               <i className="far fa-shopping-basket" />
               <span>5</span>
@@ -223,11 +232,11 @@ const DefaultHeader = () => (
             <button className="user">
               <i className="far fa-user-circle" />
             </button> */}
-            <Link href="/contact">
+            {/* <Link href="/contact">
               <a className="theme-btn">
                 Consultations <i className="fas fa-angle-double-right" />
               </a>
-            </Link>
+            </Link> */}
             {/* menu sidbar */}
             <div className="menu-sidebar" onClick={() => sidebarToggle()}>
               <button>
@@ -254,7 +263,7 @@ const Header1 = () => (
                 <ul>
                   <li>
                     <i className="far fa-envelope" /> <b>Email Us :</b>{" "}
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <a href="mailto:support@gmail.com">Black@redx.com</a>
                   </li>
                   <li>
                     <i className="far fa-clock" /> <b>Working Hours :</b> Monday
@@ -272,18 +281,26 @@ const Header1 = () => (
                   </li>
                   <li>
                     <div className="social-style-one">
-                      <a href="https://www.facebook.com/">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="https://twitter.com/i/flow/login">
-                        <i className="fab fa-twitter" />
-                      </a>
-                      <a href="https://www.youtube.com/">
-                        <i className="fab fa-youtube" />
-                      </a>
-                      <a href="https://www.instagram.com/accounts/login/">
-                        <i className="fab fa-instagram" />
-                      </a>
+                      <Link href="/404">
+                        <a>
+                          <i className="fab fa-facebook-f" />
+                        </a>
+                      </Link>
+                      <Link href="/404">
+                        <a >
+                          <i className="fab fa-twitter" />
+                        </a>
+                      </Link>
+                      <Link href="/404">
+                        <a>
+                          <i className="fab fa-youtube" />
+                        </a>
+                      </Link>
+                      <Link href="/404">
+                        <a>
+                          <i className="fab fa-instagram" />
+                        </a>
+                      </Link>
                     </div>
                   </li>
                 </ul>
@@ -327,14 +344,14 @@ const Header1 = () => (
               <i className="far fa-shopping-basket" />
               <span>5</span>
             </button> */}
-            <button className="user">
+            {/* <button className="user">
               <i className="far fa-user-circle" />
             </button>
             <Link href="/contact">
               <a className="theme-btn">
                 Consultations <i className="fas fa-angle-double-right" />
               </a>
-            </Link>
+            </Link> */}
             {/* menu sidbar */}
             <div className="menu-sidebar" onClick={() => sidebarToggle()}>
               <button>

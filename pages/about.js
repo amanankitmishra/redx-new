@@ -17,16 +17,14 @@ const About = () => {
             <div className="col-lg-6">
               <div className="about-three-content rmb-35 wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-20">
-                  <span className="sub-title mb-20">About Company</span>
-                  <h2>Organic &amp; Helathy Foods Provider Farming</h2>
+                  <span className="sub-title mb-20">About Redx</span>
+                  <h2>Welcome to Our Redx</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo enim voluptatem
+                  We pride ourselves on our extensive product range, spanning across 21 categories that include agricultural commodities, processed Agri products, Agri Inputs, Industrial Chemicals, and FMCG food products. This comprehensive approach allows us to cater to a wide array of needs, providing our customers with high-quality solutions.
+                  At REDX, we prioritize a global footprint, enabling us to leverage robust sourcing networks. This, in turn, ensures that we consistently deliver top-notch products that align with the unique requirements of our customers. Our commitment extends beyond mere business operations – we actively engage with our stakeholders to foster sustainability throughout our value chain, with a keen focus on minimizing our carbon footprint.
                 </p>
-                <div className="row mt-30">
+                {/* <div className="row mt-30">
                   <div className="col-md-6">
                     <div className="about-feature-two">
                       <div className="icon">
@@ -73,22 +71,16 @@ const About = () => {
                       </h4>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-6 text-lg-right">
               <div className="about-video wow fadeInRight delay-0-2s">
                 <img
                   className="image"
-                  src="assets/images/about/about-page.jpg"
+                  src="assets/images/about/abouts.jpg"
                   alt="About"
                 />
-                <a
-                  href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                  className="mfp-iframe video-play"
-                >
-                  <i className="fas fa-play" />
-                </a>
                 <img
                   className="bg-shape"
                   src="assets/images/about/about-bg-shape.png"
@@ -106,73 +98,50 @@ const About = () => {
       </section>
       {/* About Section End */}
       {/* Features Section Start */}
-      <section className="feature-section rel z-1" style={{ padding: "0px 100px 100px 100px" }}>
-        <div className="container-flud">
-          <div className="row">
+
+      <section className="feature-section rel z-1" >
+        <div style={{ background: '#f8f8f8', padding: '5%' }}>
+          <div className="row" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <div className="col-xl-4 col-md-6">
-              <div className="feature-item wow fadeInUp delay-0-2s">
-                <div className="p-20 text-left">
-                  <span className="number">01</span>
-                  <div>
+              <div style={{ background: '#ffffff', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', overflow: 'hidden', }}>
+                <div className="p-20">
+                  <div style={{ textAlign: 'center', marginBottom: '20px' }}>
+                    <h4>Our Mission</h4>
                   </div>
-                  <h4>Our Mission</h4>
                   <p>
                     RedX is dedicated to revolutionizing the agricultural, industrial, agro-chemical, and plywood sectors. Our mission is to provide high-quality, sustainable solutions that enhance productivity, ensuring a balance between technological innovation and environmental responsibility. Committed to customer satisfaction, we strive to be a trusted partner in growth for businesses worldwide. By fostering innovation, ethical practices, and community development, we aim to contribute to a resilient and prosperous global landscape. RedX — Transforming industries, cultivating sustainability, and building a future for generations to come.
                   </p>
                 </div>
-                {/* <Link href="/service-details">
-                  <a className="read-more">
-                    Read More <i className="fas fa-angle-double-right" />
-                  </a>
-                </Link> */}
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
-              <div className="feature-item color-two wow fadeInUp delay-0-4s">
-                <div className="p-20 text-left">
-                  <span className="number">02</span>
-                  {/* <div className="image">
-                    <img
-                      src="assets/images/features/feature2.png"
-                      alt="Feature"
-                    />
-                  </div> */}
-                  <h4>Our Vision</h4>
+              <div style={{ background: '#ffffff', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', overflow: 'hidden', }}>
+                <div className="p-20">
+                  <div style={{ textAlign: 'center', marginBottom: '20px' }}>
+                    <h4>Our Vision</h4>
+                  </div>
                   <p>
                     RedX envisions a sustainable future, pioneering innovation in agriculture, industry, agro-chemicals, and plywood. Guided by excellence, integrity, and environmental stewardship, we strive to redefine industry standards. Committed to empowering communities, our goal is to be a global leader, harmonizing technology and nature. Through cutting-edge solutions, we aim to optimize productivity, promote eco-friendly practices, and contribute to a thriving, interconnected world.
                   </p>
                 </div>
-                {/* <Link href="/service-details">
-                  <a className="read-more">
-                    Read More <i className="fas fa-angle-double-right" />
-                  </a>
-                </Link> */}
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
-              <div className="feature-item color-three wow fadeInUp delay-0-6s">
-                <div className="p-20 text-left">
-                  <span className="number">03</span>
-                  {/* <div className="image">
-                    <img
-                      src="assets/images/features/feature3.png"
-                      alt="Feature"
-                    />
-                  </div> */}
-                  <h4>Our Values</h4>
+              <div style={{ background: '#ffffff', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', overflow: 'hidden', }}>
+                <div className="p-20">
+                  <div style={{ textAlign: 'center', marginBottom: '20px' }}>
+                    <h4>Our Values</h4>
+                  </div>
                   <p>
                     At RedX, our values form the bedrock of our commitment to excellence. Integrity guides every interaction, ensuring transparency and trust. Innovation is our constant pursuit, driving advancements in agricultural, industrial, agro-chemical, and plywood solutions. Sustainability is ingrained in our ethos, promoting environmentally responsible practices. Customer-centricity defines our approach, delivering products that exceed expectations. Collaboration and inclusivity foster a diverse, dynamic, and inspired team. RedX values resilience, embracing challenges as opportunities for growth. Together, these principles underscore our dedication to quality, ethical business practices, and positive global impact.
                   </p>
                 </div>
-                {/* <Link href="/service-details">
-                  <a className="read-more">
-                    Read More <i className="fas fa-angle-double-right" />
-                  </a>
-                </Link> */}
               </div>
             </div>
           </div>
         </div>
+
+
       </section>
       {/* Features Section End */}
       {/* Team Area Start */}
@@ -183,30 +152,30 @@ const About = () => {
       </section>
       {/* Team Area End */}
       {/* About Section Start */}
-      <section className="about-section-two rel z-1">
+      <section className="about-section-two rel z-1" style={{ backgroundColor: '#ffe0b2' }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
               <div className="about-two-image not-rounded wow fadeInUp delay-0-2s">
                 <img
                   className="image"
-                  src="assets/images/about/about-page-left.jpg"
+                  src="assets/images/about/about-left.jpg"
                   alt="About"
                 />
-                <img
-                  className="about-over"
-                  src="assets/images/about/about-left-over.png"
-                  alt="About"
-                />
+
               </div>
             </div>
             <div className="col-lg-6">
               <div className="about-two-content pt-60 wow fadeInUp delay-0-4s">
                 <div className="section-title mb-35">
-                  <span className="sub-title mb-20">Why Choose Us</span>
-                  <h2>Special Care For Our Every Food &amp; Vegetable Lover</h2>
+                  <span className="sub-title mb-20">What We Do</span>
+                  <h2>What We Do</h2>
+                  <div>
+                    <p style={{ fontSize: "20px ", paddingTop: "5px" }}>Environmental responsibility is ingrained in our operations, minimizing our carbon footprint lorem Our seamless collaboration across each business stage ensures the exceptional delivery of products and services Environmental responsibility is ingrained in our operations, minimizing our carbon footprint lorem Our seamless collaboration across each business stage ensures the exceptional delivery of products and services.</p>
+                  </div>
                 </div>
-                <div className="about-features mt-60">
+
+                {/* <div className="about-features mt-60">
                   <div className="row">
                     <div className="col-xl-4 col-md-6">
                       <div className="about-feature-item wow fadeInUp delay-0-5s">
@@ -215,7 +184,7 @@ const About = () => {
                           <i className="flaticon-offer" />
                         </div>
                         <h4>
-                          <Link href="/service-details">Discount Options</Link>
+                          What We Do
                         </h4>
                         <p>Sit amet consectetur adipis cing elit sed eiusmoe</p>
                         <img src="assets/images/about/arrow.png" alt="Arrow" />
@@ -250,7 +219,7 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
