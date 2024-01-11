@@ -357,7 +357,7 @@ const Products = () => {
                     </Button>
                     <Button
                         variant="contained"
-                        color="success"
+                        color="error"
                         onClick={next}
                         sx={{ textTransform: 'none' }}
                     >

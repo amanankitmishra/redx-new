@@ -78,8 +78,9 @@ const About = () => {
               <div className="about-video wow fadeInRight delay-0-2s">
                 <img
                   className="image"
-                  src="assets/images/about/abouts.jpg"
+                  src="assets/images/about/nuts.jpg"
                   alt="About"
+
                 />
                 <img
                   className="bg-shape"
@@ -99,60 +100,76 @@ const About = () => {
       {/* About Section End */}
       {/* Features Section Start */}
 
-      <section className="feature-section rel z-1" >
-        <div style={{ background: '#f8f8f8', padding: '5%' }}>
-          <div className="row" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <div className="col-xl-4 col-md-6">
-              <div style={{ background: '#ffffff', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', overflow: 'hidden', }}>
-                <div className="p-20">
-                  <div style={{ textAlign: 'center', marginBottom: '20px' }}>
+
+      <section className="feature-section pb-100 rpb-70 rel z-1">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-4 col-md-6" >
+              <div className="feature-item wow hover fadeInUp delay-0-2s" >
+                <div className="content" >
+                  <span className="number">01</span>
+                  <div className="image">
+                    <img
+                      src="assets/images/about/target.png"
+                      alt="Feature"
+                      style={{ height: "140px", width: "150px", marginTop: '25px' }}
+                    />
+                  </div>
+                  <div style={{ marginTop: "-90px" }}>
                     <h4>Our Mission</h4>
+                    <p>
+                      RedX is committed to transforming industries and cultivating sustainability by providing high-quality, sustainable solutions in agriculture, industry, agro-chemicals, and plywood. Our mission focuses on enhancing productivity through technological innovation while maintaining environmental responsibility, fostering global growth, and contributing to a resilient and prosperous future.
+                    </p>
                   </div>
-                  <p>
-                    RedX is dedicated to revolutionizing the agricultural, industrial, agro-chemical, and plywood sectors. Our mission is to provide high-quality, sustainable solutions that enhance productivity, ensuring a balance between technological innovation and environmental responsibility. Committed to customer satisfaction, we strive to be a trusted partner in growth for businesses worldwide. By fostering innovation, ethical practices, and community development, we aim to contribute to a resilient and prosperous global landscape. RedX — Transforming industries, cultivating sustainability, and building a future for generations to come.
-                  </p>
                 </div>
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
-              <div style={{ background: '#ffffff', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', overflow: 'hidden', }}>
-                <div className="p-20">
-                  <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-                    <h4>Our Vision</h4>
+              <div className="feature-item color-two hover wow fadeInUp delay-0-4s">
+                <div className="content">
+                  <span className="number">02</span>
+                  <div className="image">
+                    <img
+                      src="assets/images/about/money.png"
+                      alt="Feature"
+                      style={{ height: "150px", width: "150px", marginTop: '35px' }}
+                    />
                   </div>
-                  <p>
-                    RedX envisions a sustainable future, pioneering innovation in agriculture, industry, agro-chemicals, and plywood. Guided by excellence, integrity, and environmental stewardship, we strive to redefine industry standards. Committed to empowering communities, our goal is to be a global leader, harmonizing technology and nature. Through cutting-edge solutions, we aim to optimize productivity, promote eco-friendly practices, and contribute to a thriving, interconnected world.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div style={{ background: '#ffffff', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', overflow: 'hidden', }}>
-                <div className="p-20">
-                  <div style={{ textAlign: 'center', marginBottom: '20px' }}>
+                  <div style={{ marginTop: "-65px" }}>
                     <h4>Our Values</h4>
+                    <p>
+                      RedX envisions a sustainable future, leading innovation in agriculture, industry, agro-chemicals, and plywood, guided by excellence, integrity, and environmental stewardship. Our commitment to community empowerment drives us to be a global leader, harmonizing technology and nature for a thriving, interconnected world.
+                    </p>
                   </div>
-                  <p>
-                    At RedX, our values form the bedrock of our commitment to excellence. Integrity guides every interaction, ensuring transparency and trust. Innovation is our constant pursuit, driving advancements in agricultural, industrial, agro-chemical, and plywood solutions. Sustainability is ingrained in our ethos, promoting environmentally responsible practices. Customer-centricity defines our approach, delivering products that exceed expectations. Collaboration and inclusivity foster a diverse, dynamic, and inspired team. RedX values resilience, embracing challenges as opportunities for growth. Together, these principles underscore our dedication to quality, ethical business practices, and positive global impact.
-                  </p>
+                </div>
+
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div className="feature-item color-three hover  wow fadeInUp delay-0-6s">
+                <div className="content">
+                  <span className="number">03</span>
+                  <div className="image">
+                    <img
+                      src="assets/images/about/values(1).png"
+                      alt="Feature"
+                      style={{ height: "150px", width: "150px", marginTop: '42px' }}
+                    />
+                  </div>
+                  <div style={{ marginTop: "-65px" }}>
+                    <h4>Our Vision</h4>
+                    <p>
+                      RedX is dedicated to excellence, guided by values such as integrity, innovation, sustainability, and customer-centricity. Our commitment to diversity, collaboration, and resilience shapes a dynamic team, driving quality, ethical business practices, and a positive global impact in agriculture, industry, agro-chemicals, and plywood solutions.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
       </section>
       {/* Features Section End */}
-      {/* Team Area Start */}
-      <section className="team-area pt-50 rpt-20 pb-95 rpb-65">
-        <div className="container">
-          <ExperienceTeam />
-        </div>
-      </section>
-      {/* Team Area End */}
-      {/* About Section Start */}
-      <section className="about-section-two rel z-1" style={{ backgroundColor: '#ffe0b2' }}>
+      <section className="about-section-two rel z-1 mb-100" style={{ backgroundColor: '#ffe0b2' }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -229,17 +246,19 @@ const About = () => {
           <img src="assets/images/shapes/about-shape2.png" alt="Shape" />
         </div>
       </section>
+      {/* Team Area Start */}
+
+      <section className="team-area pt-50 rpt-20 pb-95 rpb-65">
+        <div className="container">
+          <ExperienceTeam />
+        </div>
+      </section>
+      {/* Team Area End */}
+      {/* About Section Start */}
+
       {/* About Section End */}
       {/* Feedback Section Start */}
-      <section className="feedback-section pt-100 rpt-70 pb-130 rpb-100">
-        <div className="container">
-          <div className="section-title text-center mb-60">
-            <span className="sub-title mb-20">Customer Reviews</span>
-            <h2>Valuable Customer’s Feedback</h2>
-          </div>
-        </div>
-        <FeedbackTwoSlider />
-      </section>
+
       {/* Feedback Section End */}
       {/* Client Logo Section Start */}
       <div className="client-logo-section text-center bg-light-green py-60">
@@ -279,7 +298,7 @@ const About = () => {
           />
         </div>
       </div>
-    </Layout>
+    </Layout >
   );
 };
 export default About;

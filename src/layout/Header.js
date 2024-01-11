@@ -95,7 +95,7 @@ const DaskTopMenu = () => (
         <span className="fas fa-chevron-down" />
       </div>
     </li> */}
-    {/* <Contact /> */}
+    <Contact />
   </ul>
 );
 
@@ -139,7 +139,7 @@ const Nav = () => {
 
 const DefaultHeader = () => (
   <header className="main-header">
-    <div className="header-top-wrap bg-light-green text-white py-10">
+    <div className="header-top-wrap bg-dark text-white py-10">
       <div className="container-fluid">
         <div className="header-top">
           <div className="row">
@@ -254,7 +254,7 @@ const DefaultHeader = () => (
 );
 const Header1 = () => (
   <header className="main-header menu-absolute">
-    <div className="header-top-wrap bg-light-green text-white py-10">
+    <div className="header-top-wrap bg-dark text-white py-10">
       <div className="container-fluid">
         <div className="header-top">
           <div className="row">

@@ -35,8 +35,8 @@ const ScrollTopBtn = () => {
 };
 
 const DefaultFooter = () => (
-  <footer className="main-footer bg-green text-white">
-    <div className="container py-80">
+  <footer className="main-footer bg-dark text-white">
+    <div className="container pt-40">
       {/* <div className="footer-top-newsletter py-80 mb-75">
         <div className="section-title">
           <h2>Newsletter Subscribe</h2>
@@ -51,7 +51,7 @@ const DefaultFooter = () => (
       <div className="row justify-content-center">
         <div className="col-lg-4 col-md-6 order-md-2">
           <div className="footer-widget about-widget text-center">
-            <div className="footer-logo mb-30">
+            <div className="footer-logo mb-10">
               <Link href="/">
                 <a>
                   <img src="assets/images/logos/logoFooter.png" alt="Logo" style={{ height: "60px", width: '60px' }} />

@@ -91,7 +91,7 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/gellery/AgriblackPaper.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
+
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/gellery/TreeUrea.avif" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
+
 
                 </div>
               </div>
@@ -112,7 +112,7 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/gellery/AgriCashewNuts.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
+
 
                 </div>
               </div>
@@ -123,7 +123,7 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/gellery/nitrogen.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
+
 
                 </div>
               </div>
@@ -134,7 +134,7 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/gellery/icumsa100.webp" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
+
 
                 </div>
               </div>
@@ -146,7 +146,7 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/gellery/urea.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
+
 
                 </div>
               </div>
@@ -157,7 +157,6 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/gellery/furnituregradeplywood.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
 
                 </div>
               </div>
@@ -168,7 +167,7 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/gellery/AgrihRise(1).jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
+
 
                 </div>
               </div>
@@ -180,7 +179,7 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/gellery/blackPaper.webp" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
+
                 </div>
               </div>
             </div>
@@ -190,7 +189,7 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/gellery/pvcresin.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
+
                 </div>
               </div>
             </div>
@@ -200,7 +199,7 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/gellery/portfolio8.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
+
                 </div>
               </div>
             </div>
@@ -210,7 +209,7 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/gellery/portfolio9.jpg" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
+
                 </div>
               </div>
             </div>
@@ -223,7 +222,7 @@ const PortfolioGridIsotope = () => {
               />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
+
 
                 </div>
               </div>
@@ -246,10 +245,8 @@ const PortfolioGridIsotope = () => {
               />
               <div className="gallery-over">
                 <div className="content">
-                  <span className="category">Foods</span>
-                  <h4>
-                    <Link href="/portfolio-details">Organic Fruits</Link>
-                  </h4>
+
+
                 </div>
               </div>
             </div>

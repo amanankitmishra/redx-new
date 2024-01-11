@@ -9,6 +9,7 @@ import PhotoGallery from "../src/components/slider/PhotoGallery";
 import Layout from "../src/layout/Layout";
 import { productActive } from "../src/sliderProps";
 import Testimonials from "../src/components/slider/Testimonials";
+import FeedbackTwoSlider from "../src/components/FeedbackTwoSlider";
 const MunfimCountdown = dynamic(
   () => import("../src/components/MunfimCountdown"),
   {
@@ -117,7 +118,7 @@ const Index = () => {
               <div className="about-images wow fadeInLeft delay-0-2s">
                 <div className="row align-items-center">
                   <div className="col-6">
-                    <img src="assets/images/about/about1.jpg" alt="About" />
+                    <img src="assets/images/about/abouts1.jpg" alt="About" />
                   </div>
                   <div className="col-6">
                     <img src="assets/images/about/ureaChemical.png" alt="About" />
@@ -205,7 +206,7 @@ const Index = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-xl-4 col-md-6">
-              <div className="offer-banner-item color-two wow fadeInUp delay-0-2s">
+              <div className="offer-banner-item hover color-two wow fadeInUp delay-0-2s">
                 <div>
 
                   <h4>Value Chain</h4>
@@ -230,7 +231,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
-              <div className="offer-banner-item wow fadeInUp delay-0-4s">
+              <div className="offer-banner-item hover wow fadeInUp delay-0-4s">
                 <div >
                   <h4>Sustainability</h4>
                   <p>Environmental responsibility is ingrained in our operations, minimizing our carbon footprint for a healthier planet.</p>
@@ -254,7 +255,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
-              <div className="offer-banner-item color-three wow fadeInUp delay-0-6s">
+              <div className="offer-banner-item hover color-three wow fadeInUp delay-0-6s">
                 <div>
                   <h4>Our Business</h4>
                   <p>A commitment to excellence, a diverse product range, and a deep focus on well-being – we go beyond transactions creating lasting impacts.</p>
@@ -291,6 +292,27 @@ const Index = () => {
             <h2>Products</h2>
           </div>
           <Slider {...productActive} className="product-active">
+
+            <div className="product-item wow fadeInUp delay-0-4s">
+              <div >
+                <img src="assets/images/gellery/AgriCashewNuts.jpg" alt="Product" style={{ height: "300px", }} />
+              </div>
+            </div>
+            <div className="product-item wow fadeInUp delay-0-5s">
+              <div>
+                <img src="assets/images/gellery/urea.jpg" alt="Product" style={{ height: "300px", }} />
+              </div>
+            </div>
+            <div className="product-item wow fadeInUp delay-0-5s">
+              <div>
+                <img src="assets/images/gellery/furnituregradeplywood.jpg" alt="Product" style={{ height: "300px", }} />
+              </div>
+            </div>
+            <div className="product-item wow fadeInUp delay-0-5s">
+              <div>
+                <img src="assets/images/gellery/AgrihRise(1).jpg" alt="Product" style={{ height: "300px", }} />
+              </div>
+            </div>
             <div className="product-item wow fadeInUp delay-0-2s">
               <div >
                 <img src="assets/images/gellery/Rise.jpg" alt="Product" style={{ height: "300px", width: "100%" }} />
@@ -298,32 +320,12 @@ const Index = () => {
             </div>
             <div className="product-item wow fadeInUp delay-0-2s" >
               <div>
-                <img src="assets/images/gellery/AgriblackPaper.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
-              </div>
-            </div>
-            <div className="product-item wow fadeInUp delay-0-4s">
-              <div >
-                <img src="assets/images/gellery/AgriCashewNuts.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
+                <img src="assets/images/gellery/AgriblackPaper.jpg" alt="Product" style={{ height: "300px", width: "100%" }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-5s">
               <div>
-                <img src="assets/images/gellery/urea.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
-              </div>
-            </div>
-            <div className="product-item wow fadeInUp delay-0-5s">
-              <div>
-                <img src="assets/images/gellery/furnituregradeplywood.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
-              </div>
-            </div>
-            <div className="product-item wow fadeInUp delay-0-5s">
-              <div>
-                <img src="assets/images/gellery/AgrihRise(1).jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
-              </div>
-            </div>
-            <div className="product-item wow fadeInUp delay-0-5s">
-              <div>
-                <img src="assets/images/gellery/portfolio11.jpg" alt="Product" style={{ height: "300px", width: "100%", }} />
+                <img src="assets/images/gellery/portfolio11.jpg" alt="Product" style={{ height: "300px", }} />
               </div>
             </div>
 
@@ -435,33 +437,14 @@ const Index = () => {
       </section> */}
       {/* Gallery Area End */}
       {/* Feedback Section Start */}
-      <section className="feedback-section pt-50 rpt-20">
+      <section className="feedback-section pt-100 rpt-70 pb-130 rpb-100">
         <div className="container">
-          <div className="row large-gap">
-            <div className="col-lg-6">
-              <Testimonials />
-            </div>
-            <div className="col-lg-6">
-              <div className="feedback-images wow fadeInRight delay-0-2s">
-                <img
-                  className="first-image"
-                  src="assets/images/reviews/feedback-right.jpg"
-                  alt="Feedback"
-                />
-                {/* <img
-                  className="last-image"
-                  src="assets/images/reviews/feedback-right.png"
-                  alt="Feedback"
-                /> */}
-                <img
-                  className="bg-image"
-                  src="assets/images/shapes/feedback-bg.png"
-                  alt="Feedback"
-                />
-              </div>
-            </div>
+          <div className="section-title text-center mb-60">
+            {/* <span className="sub-title mb-20">Customer Reviews</span> */}
+            <h2>Our Testimonials</h2>
           </div>
         </div>
+        <FeedbackTwoSlider />
       </section>
       {/* Feedback Section End */}
       {/* News Section Start */}

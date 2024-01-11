@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../public/assets/images/products/rawcashewnuts.webp"
+import "../../public/assets/"
 import "../../public/assets/images/products/RiseParboiled.jpg"
 const code = () => {
     return (

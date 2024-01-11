@@ -1,5 +1,5 @@
 .pages {
-  height: 500px;
+  height: 520px;
   width: 100%;
 }
 
@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 767px) {
   .pages {
-    height: 1250px;
+    height: 1350px;
   }
 
   .page {
@@ -37,11 +37,8 @@
   }
 }
 
-@media only screen and (max-width: 1467px) {
-  .pages {
-    height: 1450px;
-  }
-}
+
+
 
 @media (min-width:1400px) {
   .css-18p1znf-MuiContainer-root {
