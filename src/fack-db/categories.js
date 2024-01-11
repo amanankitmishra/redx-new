@@ -7,7 +7,7 @@ export const categories = [
             {
                 id: 1,
                 name: "White Raw Rice",
-                image: "https://5.imimg.com/data5/SELLER/Default/2023/9/340941889/QL/KS/EQ/3418095/white-raw-rice-500x500.jpg",
+                image: "/assets/images/products/whiterice.jpeg",
                 page: 5,
                 description: ` Introducing our premium White Raw Rice, a culinary essential that promises to elevate your dining experience with its unmatched quality and purity. Sourced from the finest fields and cultivated with care, our White Raw Rice embodies the natural goodness of pure, unprocessed grains.<br />
                 This immaculate grain is characterized by its pearly white appearance and long, slender grains that cook up into a fluffy and aromatic texture. Ideal for a variety of culinary creations, from traditional dishes to modern fusion cuisine, our White Raw Rice serves as the perfect canvas for your culinary masterpieces.<br />

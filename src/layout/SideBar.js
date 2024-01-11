@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { sidebarToggle } from "../utils";
+import Link from "next/link";
 const SideBar = () => {
   return (
     <Fragment>
@@ -46,18 +47,26 @@ const SideBar = () => {
           </div>
           {/*Social Icons*/}
           <div className="social-style-one">
-            <a href="#">
-              <i className="fab fa-twitter" />
-            </a>
-            <a href="#">
-              <i className="fab fa-facebook-f" />
-            </a>
-            <a href="#">
-              <i className="fab fa-instagram" />
-            </a>
-            <a href="#">
-              <i className="fab fa-pinterest-p" />
-            </a>
+            <Link href="/404">
+              <a >
+                <i className="fab fa-twitter" />
+              </a>
+            </Link>
+            <Link href="/404">
+              <a >
+                <i className="fab fa-facebook-f" />
+              </a>
+            </Link>
+            <Link href="/404">
+              <a>
+                <i className="fab fa-instagram" />
+              </a>
+            </Link>
+            <Link href="/404">
+              <a>
+                <i className="fab fa-pinterest-p" />
+              </a>
+            </Link>
           </div>
         </div>
       </section>

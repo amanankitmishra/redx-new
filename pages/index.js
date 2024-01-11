@@ -421,7 +421,7 @@ const Index = () => {
               </div>
               <div className="col-lg-4 text-lg-right">
                 <Link href="/contact">
-                  <a className="theme-btn btn-white my-15">
+                  <a className="theme-btn   my-15">
                     Get In Touch <i className="fas fa-angle-double-right" />
                   </a>
                 </Link>
@@ -448,7 +448,7 @@ const Index = () => {
       </section>
       {/* Feedback Section End */}
       {/* News Section Start */}
-      <section className="news-section pt-130 rpt-100 pb-70 rpb-40">
+      <section className="news-section pt-50 rpt-100 pb-100 rpb-40">
         <div className="container">
           <div className="section-title text-center mb-60">
             <span className="sub-title mb-20">Read Article Tips</span>
@@ -466,15 +466,8 @@ const Index = () => {
                 <div className="content">
                   <span className="sub-title">Vegetable</span>
                   <h4>
-                    <Link href="/blog-details">
-                      Unicode UTF8 Character Sets They Sltimate Guide Systems
-                    </Link>
+                    Unicode UTF8 Character Sets They Sltimate Guide Systems
                   </h4>
-                  <Link href="/blog-details">
-                    <a className="read-more">
-                      Read More <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -489,15 +482,8 @@ const Index = () => {
                 <div className="content">
                   <span className="sub-title">Farming</span>
                   <h4>
-                    <Link href="/blog-details">
-                      Quality Foods Requirments For Every Human Body’s
-                    </Link>
+                    Quality Foods Requirments For Every Human Body’s
                   </h4>
-                  <Link href="/blog-details">
-                    <a className="read-more">
-                      Read More <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -512,15 +498,8 @@ const Index = () => {
                 <div className="content">
                   <span className="sub-title">Organic Fruits</span>
                   <h4>
-                    <Link href="/blog-details">
-                      Choose Awesome Vegetables For Your Daily Life Routine
-                    </Link>
+                    Choose Awesome Vegetables For Your Daily Life Routine
                   </h4>
-                  <Link href="/blog-details">
-                    <a className="read-more">
-                      Read More <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link>
                 </div>
               </div>
             </div>

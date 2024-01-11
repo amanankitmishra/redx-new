@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 const Business = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Our Products"} />
+      <PageBanner pageName={"Our "} />
       {/* <div className="position-relative text-center" style={{ paddingTop: '100px', paddingBottom: '100px', backgroundColor: 'black', backgroundImage: 'url(/headerBack.jpg)', backgroundPosition: 'center center', backgroundSize: 'cover', width: '100%' }}>
         <h2 className="animate__animated animate__bounce text-white fw-bold">
           Value Chain at REDX
@@ -15,8 +15,8 @@ const Business = () => {
 
       <Container className="py-5" maxWidth="lg">
         <div className="row my-100">
-          <div className="col-md-6">
-            <img src="assets/images/features/business.png" alt="Our Business" className="w-100 " height={"450px"} style={{ borderRadius: "25px" }} />
+          <div className="col-md-6 ">
+            <img src="assets/images/features/business.png" alt="Our Business" className="w-100 hover " height={"450px"} style={{ borderRadius: "25px" }} />
           </div>
           <div className="col-md-6 d-flex align-items-center ">
             <p className="fs-5 text-dark">

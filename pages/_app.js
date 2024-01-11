@@ -9,12 +9,12 @@ function MyApp({ Component, pageProps }) {
     <Fragment>
       <Head>
         <title>
-          Munfirm - Agriculture &amp; Organic Food React NextJS Template
+          Redx.BlueBrainTech.com
         </title>
         {/* Favicon Icon */}
         <link
           rel="shortcut icon"
-          href="assets/images/favicon.png"
+          href="assets/images/logos/logo.png"
           type="image/x-icon"
         />
         {/* Google Fonts */}

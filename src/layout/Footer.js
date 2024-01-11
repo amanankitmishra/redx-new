@@ -62,7 +62,7 @@ const DefaultFooter = () => (
               We pride ourselves on our extensive product range, spanning across 21 categories that include agricultural commodities, processed Agri products, Agri Inputs, Industrial Chemicals, and FMCG food products.
             </p>
             <div className="social-style-two pt-10">
-              <Link href="/contact">
+              <Link href="/404">
                 <a>
                   <i className="fab fa-facebook-f" />
                 </a>

@@ -123,7 +123,7 @@ const Products = () => {
                 </Grid>
             </Container>
 
-            <Container sx={{ py: 2, }} maxWidth="lg">
+            <Container sx={{ py: 2, }}>
                 <Box className="pages">
                     <FlippingPages
 
@@ -156,7 +156,6 @@ const Products = () => {
                                         Agricultural Products
                                         <hr style={{ color: "red", width: "50%", marginLeft: 0 }}></hr>
                                     </Typography>
-
                                     <Grid container sx={{ paddingRight: "50px", }}>
                                         {AgriculturalProducts.map(product => (
                                             <Grid key={product.id} item xs={6} md={2}>
@@ -344,7 +343,7 @@ const Products = () => {
                 </Box>
 
             </Container>
-            <Container sx={{ py: 2 }} maxWidth="lg">
+            <Container sx={{ py: 1 }} >
                 <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
                     {/* Next Previous Buttons */}
                     <Button

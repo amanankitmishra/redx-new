@@ -1,3 +1,4 @@
+// import Image from 'next/git image';
 import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 // Import any additional CSS or stylesheets if needed.

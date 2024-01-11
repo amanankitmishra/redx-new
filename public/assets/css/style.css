@@ -1016,6 +1016,15 @@ a.theme-btn.btn-white {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .header {
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+}
+
+
 .home-three .slider-section .slick-arrow {
   color: #1a2428;
   -webkit-box-shadow: 10px 0 60px rgba(237, 206, 56, 0.3);
@@ -4152,6 +4161,7 @@ blockquote,
   display: block;
   font-size: 18px;
   opacity: 1;
+  padding-left: 15px;
   font-weight: 600;
   color: #1a2428;
   text-transform: capitalize;
@@ -5139,7 +5149,7 @@ blockquote,
 
 .slider-single-item {
   z-index: 1;
-  min-height: 825px;
+  min-height: 670px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -5327,7 +5337,7 @@ blockquote,
 .slider-single-item.slide-two .slider-images {
   margin-right: 0;
   text-align: left;
-  margin-bottom: -55px;
+  margin-bottom: 0px;
 }
 
 @media only screen and (min-width: 1400px) {

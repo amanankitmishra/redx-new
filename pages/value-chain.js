@@ -16,7 +16,7 @@ const ShopGrid = () => {
       <Container className="py-5" maxWidth="lg">
         <div className="row my-100">
           <div className="col-md-6">
-            <img src="assets/images/features/value-Chain.jpg" alt="Our Business" className="w-100 h-100 rounded-3" style={{ borderRadius: "25px" }} />
+            <img src="assets/images/features/value-Chain.jpg" alt="Our Business" className="w-100 hover h-100 rounded-3" style={{ borderRadius: "25px" }} />
           </div>
           <div className="col-md-6 d-flex align-items-center">
             <p className="fs-5 text-dark">
