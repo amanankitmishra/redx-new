@@ -162,9 +162,28 @@ const PortfolioGridIsotope = () => {
               </div>
             </div>
           </div>
+          <div className="col-lg-4 col-sm-6 item Plywood">
+            <div className="gallery-style-two wow fadeInUp delay-0-2s">
+              <img src="assets/images/gellery/playwood.2.png" alt="Portfolio" />
+              <div className="gallery-over">
+                <div className="content">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-sm-6 item Plywood">
+            <div className="gallery-style-two wow fadeInUp delay-0-2s">
+              <img src="assets/images/gellery/playwood1.png" alt="Portfolio" />
+              <div className="gallery-over">
+                <div className="content">
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="col-lg-4 col-sm-6 item bread Agriculture">
             <div className="gallery-style-two wow fadeInUp delay-0-4s">
-              <img src="assets/images/gellery/AgrihRise(1).jpg" alt="Portfolio" />
+              <img src="assets/images/gellery/Rise1.png" alt="Portfolio" />
               <div className="gallery-over">
                 <div className="content">
 
@@ -240,7 +259,7 @@ const PortfolioGridIsotope = () => {
           <div className="col-lg-4 col-sm-6 item fruits">
             <div className="gallery-style-two wow fadeInUp delay-0-6s">
               <img
-                src="assets/images/gellery/Rise.jpg"
+                src="assets/images/gellery/Rise.png"
                 alt="Portfolio"
               />
               <div className="gallery-over">

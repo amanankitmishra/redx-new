@@ -1,4 +1,5 @@
 // import Image from 'next/git image';
+import Image from 'next/image';
 import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 // Import any additional CSS or stylesheets if needed.
@@ -24,23 +25,24 @@ const ProductCard = (product) => {
 
 export const ProductDescription = (product) => {
   return (
-    <Row className="p-4 pt-8">
+    <Row className="p-4 pt-8" sx={{display:"flex" , textAlign:"center"  , justifyContant:"center"}}>
       {/* Product Image Column */}
       <Col xs={12} md={4} lg={4}>
-        <div style={{ height: '350px', width: '100%', paddingTop: '24px' }}>
+        <div style={{ height: '350px', width: '100%', paddingTop: '24px', display:'flex' ,alignItems:"center", justifyItems:'center'}}>
           <img
             src={product.image}
             alt={product.image}
             height={'100%'}
+            className='product'
             width={'100%'}
-            style={{ borderRadius: '20px', objectFit: 'cover' }}
+            style={{ borderRadius: '20px', objectFit: 'cover',}}
           />
         </div>
       </Col>
 
       {/* Product Description Column */}
       <Col xs={12} md={8} lg={8}>
-        <div style={{ height: '350px', paddingLeft: '0px', paddingRight: '32px', paddingTop: '24px', textAlign: 'start', fontFamily: 'sans-serif' }}>
+        <div style={{ height: '350px', paddingLeft: '0px',  paddingTop: '24px', textAlign: 'start', fontFamily: 'sans-serif' }}>
           {/* Product Name */}
           <h4 style={{ fontWeight: 'bold', marginBottom: '20px' }}>{product.name}</h4>
 
@@ -53,4 +55,3 @@ export const ProductDescription = (product) => {
 };
 
 export default ProductCard;
-

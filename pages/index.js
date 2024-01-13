@@ -4,11 +4,9 @@ import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
 import ClientLogoSlider from "../src/components/ClientLogoSlider";
 import { HomeSlider1 } from "../src/components/HomeSlider";
-// import CustomerReviews from "../src/components/slider/CustomerReviews";
-import PhotoGallery from "../src/components/slider/PhotoGallery";
 import Layout from "../src/layout/Layout";
 import { productActive } from "../src/sliderProps";
-import Testimonials from "../src/components/slider/Testimonials";
+
 import FeedbackTwoSlider from "../src/components/FeedbackTwoSlider";
 const MunfimCountdown = dynamic(
   () => import("../src/components/MunfimCountdown"),
@@ -310,17 +308,17 @@ const Index = () => {
             </div>
             <div className="product-item wow fadeInUp delay-0-5s">
               <div>
-                <img src="assets/images/gellery/AgrihRise(1).jpg" alt="Product" style={{ height: "300px", }} />
+                <img src="assets/images/gellery/Rise1.png" alt="Product" style={{ height: "300px", }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-2s">
               <div >
-                <img src="assets/images/gellery/Rise.jpg" alt="Product" style={{ height: "300px", width: "100%" }} />
+                <img src="assets/images/gellery/Rise.png" alt="Product" style={{ height: "300px", width: "100%" }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-2s" >
               <div>
-                <img src="assets/images/gellery/AgriblackPaper.jpg" alt="Product" style={{ height: "300px", width: "100%" }} />
+                <img src="assets/images/gellery/Blackpaper.png" alt="Product" style={{ height: "300px", width: "100%" }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-5s">

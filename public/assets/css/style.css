@@ -6607,6 +6607,14 @@ blockquote,
   transform: scale(1.02);
 
 }
+.product{
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+.product:hover {
+  box-shadow: 3px 3px 15px #c10201;
+  transform: scale(1.02);
+
+}
 
 /* Shop Page */
 .shop-shorter {

@@ -8,6 +8,7 @@ import Layout from "../src/layout/Layout";
 const About = () => {
   return (
     <Layout>
+      {/* Page Banner start */}
       <PageBanner pageName={"about us"} />
       {/* Page Banner End */}
       {/* About Section Start */}
@@ -24,54 +25,6 @@ const About = () => {
                   We pride ourselves on our extensive product range, spanning across 21 categories that include agricultural commodities, processed Agri products, Agri Inputs, Industrial Chemicals, and FMCG food products. This comprehensive approach allows us to cater to a wide array of needs, providing our customers with high-quality solutions.
                   At REDX, we prioritize a global footprint, enabling us to leverage robust sourcing networks. This, in turn, ensures that we consistently deliver top-notch products that align with the unique requirements of our customers. Our commitment extends beyond mere business operations – we actively engage with our stakeholders to foster sustainability throughout our value chain, with a keen focus on minimizing our carbon footprint.
                 </p>
-                {/* <div className="row mt-30">
-                  <div className="col-md-6">
-                    <div className="about-feature-two">
-                      <div className="icon">
-                        <i className="flaticon-wheat-sack" />
-                      </div>
-                      <h4>
-                        <Link href="/service-details">
-                          Agriculture &amp; Foods
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="about-feature-two">
-                      <div className="icon">
-                        <i className="flaticon-fruits" />
-                      </div>
-                      <h4>
-                        <Link href="/service-details">
-                          Vegetables &amp; Fruits
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="about-feature-two">
-                      <div className="icon">
-                        <i className="flaticon-eggs-1" />
-                      </div>
-                      <h4>
-                        <Link href="/service-details">Farming products</Link>
-                      </h4>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="about-feature-two">
-                      <div className="icon">
-                        <i className="flaticon-social-care" />
-                      </div>
-                      <h4>
-                        <Link href="/service-details">
-                          Crisp Bread &amp; Cake’s
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
-                </div> */}
               </div>
             </div>
             <div className="col-lg-6 text-lg-right">
@@ -191,52 +144,6 @@ const About = () => {
                     <p style={{ fontSize: "20px ", paddingTop: "5px" }}>Environmental responsibility is ingrained in our operations, minimizing our carbon footprint lorem Our seamless collaboration across each business stage ensures the exceptional delivery of products and services Environmental responsibility is ingrained in our operations, minimizing our carbon footprint lorem Our seamless collaboration across each business stage ensures the exceptional delivery of products and services.</p>
                   </div>
                 </div>
-
-                {/* <div className="about-features mt-60">
-                  <div className="row">
-                    <div className="col-xl-4 col-md-6">
-                      <div className="about-feature-item wow fadeInUp delay-0-5s">
-                        <span className="number">1</span>
-                        <div className="icon">
-                          <i className="flaticon-offer" />
-                        </div>
-                        <h4>
-                          What We Do
-                        </h4>
-                        <p>Sit amet consectetur adipis cing elit sed eiusmoe</p>
-                        <img src="assets/images/about/arrow.png" alt="Arrow" />
-                      </div>
-                    </div>
-                    <div className="col-xl-4 col-md-6">
-                      <div className="about-feature-item wow fadeInUp delay-0-6s">
-                        <span className="number">2</span>
-                        <div className="icon">
-                          <i className="flaticon-return-box" />
-                        </div>
-                        <h4>
-                          <Link href="/service-details">
-                            Best Return Policy
-                          </Link>
-                        </h4>
-                        <p>Sit amet consectetur adipis cing elit sed eiusmoe</p>
-                        <img src="assets/images/about/arrow.png" alt="Arrow" />
-                      </div>
-                    </div>
-                    <div className="col-xl-4 col-md-6">
-                      <div className="about-feature-item wow fadeInUp delay-0-7s">
-                        <span className="number">3</span>
-                        <div className="icon">
-                          <i className="flaticon-24-hours" />
-                        </div>
-                        <h4>
-                          <Link href="/service-details">Online Support</Link>
-                        </h4>
-                        <p>Sit amet consectetur adipis cing elit sed eiusmoe</p>
-                        <img src="assets/images/about/arrow.png" alt="Arrow" />
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>

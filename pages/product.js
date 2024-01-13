@@ -67,7 +67,7 @@ const Products = () => {
         <Layout>
             <PageBanner pageName={"Products"} />
 
-            <Container sx={{ py: 2 }} maxWidth="lg">
+            <Container sx={{ py: 1}} maxWidth="lg">
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={12}>
                         <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
@@ -123,7 +123,7 @@ const Products = () => {
                 </Grid>
             </Container>
 
-            <Container sx={{ py: 2, }}>
+            <Container sx={{ py: 1, }}>
                 <Box className="pages">
                     <FlippingPages
 
@@ -156,7 +156,7 @@ const Products = () => {
                                         Agricultural Products
                                         <hr style={{ color: "red", width: "50%", marginLeft: 0 }}></hr>
                                     </Typography>
-                                    <Grid container sx={{ paddingRight: "50px", }}>
+                                    <Grid container >
                                         {AgriculturalProducts.map(product => (
                                             <Grid key={product.id} item xs={6} md={2}>
                                                 {ProductCard(product)}
@@ -169,12 +169,12 @@ const Products = () => {
                         <Box className="page" >
                             <Grid container spacing={2} sx={{ pl: 3, }} >
                                 <Grid item xs={12} md={12} lg={12} >
-                                    <Typography variant="h5" sx={{ paddingTop: "50px" }}>
+                                    <Typography variant="h5">
                                         Agro Chemicals
                                         <hr style={{ color: "red", width: "50%", marginLeft: 0 }}></hr>
                                     </Typography>
 
-                                    <Grid container sx={{ paddingRight: "50px" }}>
+                                    <Grid container sx={{ paddingRight: "10px" }}>
                                         {AgroProducts.map(product => (
                                             <Grid key={product.id} item xs={6} md={2}>
                                                 {ProductCard(product)}
@@ -187,12 +187,12 @@ const Products = () => {
                         <Box className="page">
                             <Grid container spacing={2} sx={{ pl: 3, }} >
                                 <Grid item xs={12} md={12} lg={12}>
-                                    <Typography variant="h5" sx={{ paddingTop: "50px" }}>
+                                    <Typography variant="h5" >
                                         Industrial Products
                                         <hr style={{ color: "red", width: "50%", marginLeft: 0 }}></hr>
                                     </Typography>
 
-                                    <Grid container sx={{ paddingRight: "50px" }}>
+                                    <Grid container sx={{ paddingRight: "10px" }}>
                                         {IndustrialProducts.map(product => (
                                             <Grid key={product.id} item xs={6} md={2}>
                                                 {ProductCard(product)}
@@ -205,7 +205,7 @@ const Products = () => {
                         <Box className="page">
                             <Grid container spacing={2} sx={{ pl: 3, }} >
                                 <Grid item xs={12} md={12} lg={12}>
-                                    <Typography variant="h5" sx={{ paddingTop: "50px" }}>
+                                    <Typography variant="h5" >
                                         Plywood Products
                                         <hr style={{ color: "red", width: "50%", marginLeft: 0 }}></hr>
                                     </Typography>
