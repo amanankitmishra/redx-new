@@ -1,9 +1,6 @@
-
-
-
 import React, { useState } from "react";
 import { Button, Menu, MenuItem, Grid, Typography, Container, Box } from "@mui/material";
-import { categories, getProductsByCategoryId } from '../src/fack-db/categories';
+import { categories, getProductsByCategoryId } from '../src/fake-db/categories';
 import ProductCard, { ProductDescription } from '../src/components/ProductCard';
 import { FlippingPages } from 'flipping-pages';
 import 'flipping-pages/dist/style.css';
@@ -366,6 +363,10 @@ const Products = () => {
             </Container>
 
         </Layout>
+
+                                            
+
+
     );
 }
 
