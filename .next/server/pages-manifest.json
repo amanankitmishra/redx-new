@@ -2,15 +2,15 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/404": "pages/404.html",
-  "/api/hello": "pages/api/hello.js",
   "/about": "pages/about.html",
   "/blog-grid": "pages/blog-grid.html",
+  "/api/hello": "pages/api/hello.js",
   "/contact": "pages/contact.html",
   "/gallery": "pages/gallery.html",
-  "/product": "pages/product.html",
   "/": "pages/index.html",
+  "/our-business": "pages/our-business.html",
+  "/product": "pages/product.html",
   "/sustainability": "pages/sustainability.html",
   "/value-chain": "pages/value-chain.html",
-  "/our-business": "pages/our-business.html",
   "/_document": "pages/_document.js"
 }
