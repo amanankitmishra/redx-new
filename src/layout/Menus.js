@@ -3,15 +3,7 @@ import { Fragment } from "react";
 
 export const Home = () => (
   <Fragment>
-    {/* <li>
-      <Link href="/">Home One</Link>
-    </li> */}
-    {/* <li>
-      <Link href="/index2">Home Two</Link>
-    </li>
-    <li>
-      <Link href="/index3">Home Three</Link>
-    </li> */}
+
   </Fragment>
 );
 

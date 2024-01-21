@@ -50,11 +50,11 @@ export const HomeSlider1 = () => {
             src="assets/images/slider/pumpkin.png"
             alt="Pumpkin"
           />
-          <img
+          {/* <img
             className="two-leaf"
-            src="assets/images/slider/two-lear.png"
+            src="assets/images/slider/leaf-2.png"
             alt="Leaf"
-          />
+          /> */}
           <img
             className="half-leaf"
             src="assets/images/slider/half-leaf.png"

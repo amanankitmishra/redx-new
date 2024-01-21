@@ -26,7 +26,7 @@ const Layout = ({ header, footer, children }) => {
       {/* <ImageGallery /> */}
       <div className="page-wrapper">
         <Header header={header} />
-        <SideBar />
+        <SideBar/>
         {children}
         <Footer footer={footer} />
       </div>

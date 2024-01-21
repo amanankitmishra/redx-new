@@ -78,7 +78,7 @@ const Index = () => {
             </div>
             <div className="category-item wow fadeInUp delay-0-5s">
               <div className="icon">
-                <img src="assets/images/category/friedcashew.jpg" alt="Icon" style={{ borderRadius: "50%", height: "100px", width: '100%' }} />
+                <img src="assets/images/category/friendcashew.webp" alt="Icon" style={{ borderRadius: "50%", height: "100px", width: '100%' }} />
               </div>
               <h5>
                 <Link href="/services">Raw Cashew Nuts</Link>
@@ -293,7 +293,7 @@ const Index = () => {
 
             <div className="product-item wow fadeInUp delay-0-4s">
               <div >
-                <img src="assets/images/gellery/AgriCashewNuts.jpg" alt="Product" style={{ height: "300px", }} />
+                <img src="assets/images/gellery/RawCashews.webp" alt="Product" style={{ height: "300px", }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-5s">

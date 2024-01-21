@@ -49,7 +49,7 @@ export const categories = [
             {
                 id: 6,
                 name: "Raw Cashew Nuts",
-                image: "/assets/images/products/raw-cashew.png",
+                image: "/assets/images/products/RawCashews.webp",
                 page: 10,
                 description: `Indulge in the natural goodness of our Raw Cashew Nuts, a premium offering sourced from the heart of the finest cashew orchards. Bursting with flavor and nutrition, these cashews are untouched by processing, providing you with a wholesome snacking experience that reflects the true essence of this exquisite nut.<br />Our Raw Cashew Nuts are characterized by their creamy texture and subtly sweet taste. Perfect for those who appreciate the purity of natural flavors, these cashews serve as a versatile ingredient in both sweet and savory dishes. Whether enjoyed on their own as a nutritious snack or incorporated into your favorite recipes, their rich and buttery profile enhances the overall culinary experience.<br />Packed with essential nutrients, including heart-healthy fats and proteins, our Raw Cashew Nuts contribute to a balanced and nourishing diet. Each nut is carefully selected to ensure quality, and the raw nature of the product preserves its nutritional integrity.`
             },

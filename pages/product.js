@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Button, Menu, MenuItem, Grid, Typography, Container, Box } from "@mui/material";
 import { categories, getProductsByCategoryId } from '../src/fake-db/categories';
 import ProductCard, { ProductDescription } from '../src/components/ProductCard';
@@ -17,13 +17,39 @@ const Products = () => {
     const [categoryAnchorEl, setCategoryAnchorEl] = useState(null);
     const [productAnchorEl, setProductAnchorEl] = useState(null);
 
-
     const back = () => {
         setSelected(selected => Math.max(selected - 1, 0));
     };
 
     const next = () => {
         setSelected(selected => Math.min(selected + 1, 21));
+    };
+    const [scrollInterval, setScrollInterval] = useState(null);
+    const scrollAmount = useRef(null);
+
+    useEffect(() => {
+        // Check if window is defined before accessing it
+        if (typeof window !== 'undefined') {
+            scrollAmount.current = window.innerHeight * 0.03;
+        }
+    }, []); // Empty dependency array ensures this effect runs only once after mount
+
+    const handleScrollStart = (direction) => {
+        // Check if window is defined before using it
+        if (typeof window !== 'undefined') {
+            const scrollDirection = direction === 'up' ? -1 : 1;
+            const interval = setInterval(() => {
+                window.scrollBy({ top: scrollAmount.current * scrollDirection, behavior: 'smooth' });
+            }, 50); // Adjust the interval as needed for the desired scrolling speed
+            setScrollInterval(interval);
+        }
+    };
+
+    const handleScrollStop = () => {
+        if (scrollInterval) {
+            clearInterval(scrollInterval);
+            setScrollInterval(null);
+        }
     };
 
 
@@ -64,7 +90,7 @@ const Products = () => {
         <Layout>
             <PageBanner pageName={"Products"} />
 
-            <Container sx={{ py: 1}} maxWidth="lg">
+            <Container sx={{ py: 1 }} maxWidth="lg">
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={12}>
                         <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
@@ -77,11 +103,10 @@ const Products = () => {
                             >
                                 {selectedCategory ? selectedCategory.name : 'Select Category'}
                             </Button>
-
                             {/* Product Selection Button */}
                             <Button
                                 variant="contained"
-                                color="success"
+                                color="error"
                                 onClick={handleProductMenuOpen}
                                 disabled={!selectedCategory}
                                 sx={{ textTransform: 'none' }}
@@ -119,7 +144,6 @@ const Products = () => {
                     </Grid>
                 </Grid>
             </Container>
-
             <Container sx={{ py: 1, }}>
                 <Box className="pages">
                     <FlippingPages
@@ -166,7 +190,7 @@ const Products = () => {
                         <Box className="page" >
                             <Grid container spacing={2} sx={{ pl: 3, }} >
                                 <Grid item xs={12} md={12} lg={12} >
-                                    <Typography variant="h5">
+                                    <Typography variant="h5" sx={{ paddingTop: "50px" }}>
                                         Agro Chemicals
                                         <hr style={{ color: "red", width: "50%", marginLeft: 0 }}></hr>
                                     </Typography>
@@ -184,11 +208,10 @@ const Products = () => {
                         <Box className="page">
                             <Grid container spacing={2} sx={{ pl: 3, }} >
                                 <Grid item xs={12} md={12} lg={12}>
-                                    <Typography variant="h5" >
+                                    <Typography variant="h5" sx={{ paddingTop: "50px" }} >
                                         Industrial Products
                                         <hr style={{ color: "red", width: "50%", marginLeft: 0 }}></hr>
                                     </Typography>
-
                                     <Grid container sx={{ paddingRight: "10px" }}>
                                         {IndustrialProducts.map(product => (
                                             <Grid key={product.id} item xs={6} md={2}>
@@ -202,7 +225,7 @@ const Products = () => {
                         <Box className="page">
                             <Grid container spacing={2} sx={{ pl: 3, }} >
                                 <Grid item xs={12} md={12} lg={12}>
-                                    <Typography variant="h5" >
+                                    <Typography variant="h5" sx={{ paddingTop: "50px" }} >
                                         Plywood Products
                                         <hr style={{ color: "red", width: "50%", marginLeft: 0 }}></hr>
                                     </Typography>
@@ -361,10 +384,32 @@ const Products = () => {
                     </Button>
                 </Box>
             </Container>
+            <div className="scroll-buttons">
+                <div
+                    className="scroll-button"
+                    onMouseDown={() => handleScrollStart('up')}
+                    onMouseUp={handleScrollStop}
+                    onMouseLeave={handleScrollStop}
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 15l6-6 6 6" />
+                    </svg>
+                </div>
+                <div
+                    className="scroll-button"
+                    onMouseDown={() => handleScrollStart('down')}
+                    onMouseUp={handleScrollStop}
+                    onMouseLeave={handleScrollStop}
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg>
+                </div>
+            </div>
 
         </Layout>
 
-                                            
+
 
 
     );

@@ -1,5 +1,4 @@
 // import Image from 'next/git image';
-import Image from 'next/image';
 import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 // Import any additional CSS or stylesheets if needed.
@@ -12,9 +11,8 @@ const ProductCard = (product) => {
         variant="top"
         src={product.image}
         alt={product.name}
-        style={{ height: '80px', objectFit: 'cover' }}
-      />
-
+        style={{ height: '80px', objectFit: 'cover'}}
+      />      
       {/* Product Name */}
       <Card.Body>
         <Card.Title style={{ padding: '8px 0', fontSize: '1rem' }}>{product.name}</Card.Title>
@@ -33,7 +31,7 @@ export const ProductDescription = (product) => {
             src={product.image}
             alt={product.image}
             height={'100%'}
-            className='product'
+            className='products'
             width={'100%'}
             style={{ borderRadius: '20px', objectFit: 'cover',}}
           />

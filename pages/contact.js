@@ -54,7 +54,7 @@ const ContactUs = () => {
         <div className="contact-shapes">
           <img
             className="leafs"
-            src="assets/images/shapes/contact-leafs.png"
+            src="assets/images/shapes/leaf.png"
             alt="Leafs"
           />
           <img
@@ -173,7 +173,7 @@ const ContactUs = () => {
         <div className="contact-shapes">
           <img
             className="leaf"
-            src="assets/images/shapes/leaf-1.png"
+            src="assets/images/shapes/two-lear.png"
             alt="Leaf"
           />
           <img
