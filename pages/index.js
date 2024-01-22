@@ -488,7 +488,7 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="news-item wow fadeInUp delay-0-6s">
                 <div className="image">
-                  <img src="assets/images/news/news3.jpg" alt="News" />
+                  <img src="assets/images/news/news3.png" alt="News" />
                   <span className="date">
                     <b>25</b> July
                   </span>
