@@ -40,7 +40,7 @@ export const categories = [
             {
                 id: 5,
                 name: "Icumsa 150",
-                image: "/assets/images/products/icumsa-100-sugar.webp",
+                image: "/assets/images/products/icumsa.png",
               
                 page: 9,
                 description: `Introducing our ICUMSA 150 Refined Sugar, a distinguished choice for those seeking a versatile sweetener with a touch of natural warmth. Meticulously crafted to meet the standards set by the International Commission for Uniform Methods of Sugar Analysis (ICUMSA), this sugar variant offers a delightful balance of flavor and functionality.<br />With a slightly deeper golden hue, our ICUMSA 150 Refined Sugar brings a rich and nuanced sweetness to your culinary endeavors. The fine crystal structure, achieved through careful refining, ensures effortless dissolvability, making it an excellent choice for various cooking and beverage applications. <br />
@@ -106,21 +106,21 @@ export const categories = [
             {
                 id: 2,
                 name: "PVC Resin H66 (TAIWAN)",
-                image: "/assets/images/products/pvcresin.jpg",
+                image: "/assets/images/products/PVC-H66.jpg",
                 page: 16,
                 description: `Introducing PVC Resin H66, a high-performance polyvinyl chloride resin designed to meet the demanding requirements of various industries. With a focus on delivering superior mechanical properties, this resin is known for its outstanding strength, durability, and versatility in manufacturing applications.<br />PVC Resin H66 is characterized by its high molecular weight, contributing to enhanced mechanical strength in end products. This makes it an excellent choice for applications where durability and structural integrity are paramount, such as in the production of pipes, fittings, and construction materials.<br />Noteworthy for its reliable processability, H66 facilitates efficient molding and shaping during manufacturing processes like extrusion and injection molding. This characteristic ensures ease of use for manufacturers and contributes to the production of high-quality, consistent end products.`
             },
             {
                 id: 3,
                 name: "PVC Resin LS100H (KOREA)",
-                image: "/assets/images/products/pvcresin.jpg",
+                image: "/assets/images/products/pvc-resin-powder.jpg",
                 page: 17,
                 description: `Introducing PVC Resin LS100H, a specialized polyvinyl chloride resin designed to meet the unique demands of specific applications, particularly in the production of flexible and high-performance materials. Recognized for its outstanding clarity, flexibility, and processability, PVC Resin LS100H is a preferred choice for industries where transparency and pliability are key considerations.<br />Notable for its high purity and consistent quality, LS100H is tailored for applications requiring transparency, such as in the manufacturing of clear films, sheets, and flexible tubing. The resin's excellent processability makes it well-suited for various production methods, ensuring ease of molding and shaping in applications like film extrusion.`
             },
             {
                 id: 4,
                 name: "PVC Resin H1000R (CHINA)",
-                image: "/assets/images/products/pvcresin.jpg",
+                image: "/assets/images/products/PVC-Resin.png",
                
                 page: 18,
                 description: `Introducing PVC Resin H-1000R, a high-quality polyvinyl chloride resin renowned for its exceptional properties, making it a versatile choice for various industrial applications. Characterized by its high molecular weight, H-1000R is designed to offer enhanced mechanical strength and durability, making it a preferred material for applications where structural integrity is crucial.<br />PVC Resin H-1000R exhibits excellent processability, ensuring ease of molding and shaping during manufacturing processes such as extrusion and injection molding. This attribute not only contributes to efficient production but also allows for the creation of consistent, high-quality end products.<br />Known for its adaptability, H-1000R finds application in a range of industries, including construction, automotive, and infrastructure. Its ability to withstand environmental factors and deliver long-lasting performance makes it an ideal choice for projects requiring resilience and reliability.`
