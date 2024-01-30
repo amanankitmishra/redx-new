@@ -93,7 +93,7 @@ const Products = () => {
             <Container sx={{ py: 1 }} maxWidth="lg">
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={12}>
-                        <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
+                        <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 ,pt:2 }}>
                             {/* Category Selection Button */}
                             <Button
                                 variant="contained"
@@ -152,7 +152,6 @@ const Products = () => {
                         onSwipeEnd={setSelected}
                         selected={selected}
                         animationDuration={120}
-
                     >
                         <Box className="page">
                             <Grid container spacing={2} sx={{ px: 3, }}>
@@ -363,8 +362,8 @@ const Products = () => {
                 </Box>
 
             </Container>
-            <Container sx={{ py: 1 }} >
-                <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
+            <Container sx={{ py: 1  }} >
+                <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 ,pb:2 }}>
                     {/* Next Previous Buttons */}
                     <Button
                         variant="contained"
@@ -408,6 +407,9 @@ const Products = () => {
             </div>
 
         </Layout>
+
+
+
 
 
 

@@ -21,7 +21,7 @@ export const HomeSlider1 = () => {
             <div className="col-lg-6">
               <div className="slider-content">
                 <div className="sub-title mb-20">Welcome to Redx</div>
-                <h1>Agriculture Farming</h1>
+                <h1>Industrial Product</h1>
                 <h6>Cultivating Trust, Harvesting Nutrition</h6>
                 <div className="slider-btns mt-30">
                 </div>
@@ -31,15 +31,15 @@ export const HomeSlider1 = () => {
               <div className="slider-images">
                 <img
                   className="image"
-                  src="assets/images/slider/slider-image1.jpg"
+                  src="assets/images/slider/pvc-slide.png"
                   alt="Slider"
                   style={{ borderRadius: '100%' }}
                 />
-                <img
+                {/* <img
                   className="offer"
                   src="assets/images/shapes/organic.png"
                   alt="Organic"
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -60,16 +60,16 @@ export const HomeSlider1 = () => {
             src="assets/images/slider/half-leaf.png"
             alt="Leaf"
           />
-          <img
+        <img
             className="leaf-one"
-            src="assets/images/slider/leaf-1.png"
+            src="assets/images/slider/two-lear.png"
             alt="Leaf"
           />
-          <img
+          {/* <img
             className="leaf-two"
             src="assets/images/slider/leaf-2.png"
             alt="Leaf"
-          />
+          /> */}
         </div>
       </div>
       <div
@@ -82,21 +82,21 @@ export const HomeSlider1 = () => {
               <div className="slider-images">
                 <img
                   className="image"
-                  src="assets/images/slider/slider-image2.jpg"
+                  src="assets/images/slider/Melamine-pwder2.png"
                   alt="Slider"
                   style={{ borderRadius: '100%' }}
                 />
-                <img
+                {/* <img
                   className="offer"
                   src="assets/images/shapes/organic.png"
                   alt="Organic"
-                />
+                /> */}
               </div>
             </div>
             <div className="col-lg-6">
               <div className="slider-content">
                 <div className="sub-title mb-20">Welcome to Redx</div>
-                <h1>Food Grains</h1>
+                <h1>Melamine Powder</h1>
                 <h6>Driven By Innovation, Delivering on quality.</h6>
                 <div className="slider-btns mt-30">
                   {/* <Link href="/shop-grid">
@@ -120,11 +120,11 @@ export const HomeSlider1 = () => {
             src="assets/images/slider/pumpkin.png"
             alt="Pumpkin"
           />
-          <img
+          {/* <img
             className="two-leaf"
             src="assets/images/slider/two-lear.png"
             alt="Leaf"
-          />
+          /> */}
           <img
             className="half-leaf"
             src="assets/images/slider/half-leaf.png"
@@ -132,14 +132,14 @@ export const HomeSlider1 = () => {
           />
           <img
             className="leaf-one"
-            src="assets/images/slider/leaf-1.png"
+            src="assets/images/slider/two-lear.png"
             alt="Leaf"
           />
-          <img
+          {/* <img
             className="leaf-two"
             src="assets/images/slider/leaf-2.png"
             alt="Leaf"
-          />
+          /> */}
         </div>
       </div>
       <button

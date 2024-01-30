@@ -2,8 +2,8 @@ import Link from "next/link";
 const PageBanner = ({ pageName, pageTitle }) => {
   return (
     <section
-      className="page-banner text-white py-165 rpy-130"
-      style={{ backgroundImage: "url(assets/images/banner/banner.jpg)" }}
+      className="page-banner text-white py-140 rpy-130"
+      style={{ backgroundImage: "url(assets/images/banner/banner2.png)" }}
     >
       <div className="container">
         <div className="banner-inner">

@@ -44,7 +44,7 @@ const Index = () => {
                 <span className="sub-title mb-20">
                   Agriculture , Agro Chemicals , Industrial ,Plywood Product
                 </span>
-                <h2>Agriculture Products</h2>
+                <h2>Polymers</h2>
               </div>
             </div>
             <div className="col-lg-5 wow fadeInUp delay-0-4s">
@@ -60,50 +60,51 @@ const Index = () => {
           <div className="category-wrap">
             <div className="category-item wow fadeInUp delay-0-3s">
               <div className="icon">
-                <img src="assets/images/category/icon1.jpg" alt="Icon" style={{ borderRadius: "50%" }} />
+                <img src="assets/images/category/Melamine-img1.jpg" alt="Icon" style={{ borderRadius: "50%" }} />
               </div>
               <h5>
-                <Link href="/services">Black Pepper</Link>
+               Melamine Powder
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
             <div className="category-item wow fadeInUp delay-0-4s">
               <div className="icon">
-                <img src="assets/images/category/whiteRise.jpg" alt="Icon" style={{ borderRadius: "50%", height: "100px" }} />
+                <img src="assets/images/category/pvc-icon1.webp" alt="Icon" style={{ borderRadius: "50%", height: "100px" }} />
               </div>
               <h5>
-                <Link href="/services">White Raw Rise</Link>
+               PVC Resin H1000R  ( CHINA )
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
             <div className="category-item wow fadeInUp delay-0-5s">
               <div className="icon">
-                <img src="assets/images/category/friendcashew.webp" alt="Icon" style={{ borderRadius: "50%", height: "100px", width: '100%' }} />
+                <img src="assets/images/category/pvc-h6.jpg" alt="Icon" style={{ borderRadius: "50%", height: "100px", width: '100%' }} />
               </div>
               <h5>
-                <Link href="/services">Raw Cashew Nuts</Link>
+               PVC Resin H66
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
             <div className="category-item wow fadeInUp delay-0-6s">
               <div className="icon">
-                <img src="assets/images/category/urea.jpg" alt="Icon" style={{ borderRadius: "50%", height: "100px", width: '100%' }} />
+                <img src="assets/images/category/LG-CHEM-LS100H-PVC-Resin.jpg" alt="Icon" style={{ borderRadius: "50%", height: "100px", width: '100%' }} />
               </div>
               <h5>
-                <Link href="/services">Urea</Link>
+                PVC Resin LS100H (KOREA)
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
             <div className="category-item wow fadeInUp delay-0-7s">
               <div className="icon">
-                <img src="assets/images/category/furnituregradeplywood.jpg" alt="Icon" style={{ borderRadius: "50%", height: "100px", width: '100%' }} />
+                <img src="assets/images/category/hygain-hs-1000r-pvc-resin.png" alt="Icon" style={{ borderRadius: "50%", height: "100px", width: '100%' }} />
               </div>
               <h5>
-                <Link href="/services">Furniture Grade</Link>
+               PVC Resin H1000R (CHINA)
                 {/* Furniture Grade */}
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
+          
           </div>
         </div>
       </section>
@@ -116,11 +117,11 @@ const Index = () => {
               <div className="about-images wow fadeInLeft delay-0-2s">
                 <div className="row align-items-center">
                   <div className="col-6">
-                    <img src="assets/images/about/abouts1.jpg" alt="About" />
+                    <img src="assets/images/about/abouts1.png" alt="About" />
                   </div>
                   <div className="col-6">
                     <img src="assets/images/about/ureaChemical.png" alt="About" />
-                    <img src="assets/images/about/about3.jpg" alt="About" />
+                    <img src="assets/images/about/pvc-resin1.jpeg" alt="About" />
                   </div>
                 </div>
                 <div className="offer">
@@ -130,7 +131,7 @@ const Index = () => {
             </div>
             <div className="col-lg-6">
               <div className="about-content rpt-65 wow fadeInRight delay-0-2s">
-                <div className="section-title mb-35">
+                <div className="section-title mb-35 ">
                   <span className="sub-title mb-20">About Redx</span>
                   <h2>Welcome To Redx</h2>
                 </div>
@@ -205,7 +206,7 @@ const Index = () => {
           <div className="row">
             <div className="col-xl-4 col-md-6">
               <div className="offer-banner-item hover color-two wow fadeInUp delay-0-2s">
-                <div>
+                <div className="value ms-20 pe-20">
 
                   <h4>Value Chain</h4>
                   <p>Our seamless collaboration across each business stage ensures the exceptional delivery of products and services.</p>
@@ -298,7 +299,7 @@ const Index = () => {
             </div>
             <div className="product-item wow fadeInUp delay-0-5s">
               <div>
-                <img src="assets/images/gellery/urea.jpg" alt="Product" style={{ height: "300px", }} />
+                <img src="assets/images/gellery/urea1.png" alt="Product" style={{ height: "300px", }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-5s">
@@ -456,13 +457,13 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="news-item wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/news/news1.jpg" alt="News" />
+                  <img src="assets/images/news/news1.png" alt="News" />
                   <span className="date">
                     <b>25</b> July
                   </span>
                 </div>
                 <div className="content">
-                  <span className="sub-title">Vegetable</span>
+                  <span className="sub-title">Industrial Product</span>
                   <h4>
                     Unicode UTF8 Character Sets They Sltimate Guide Systems
                   </h4>
@@ -472,13 +473,13 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="news-item wow fadeInUp delay-0-4s">
                 <div className="image">
-                  <img src="assets/images/news/news2.jpg" alt="News" />
+                  <img src="assets/images/news/news2.png" alt="News" />
                   <span className="date">
                     <b>25</b> July
                   </span>
                 </div>
                 <div className="content">
-                  <span className="sub-title">Farming</span>
+                  <span className="sub-title">Agricultural Product</span>
                   <h4>
                     Quality Foods Requirments For Every Human Body’s
                   </h4>
@@ -488,13 +489,13 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="news-item wow fadeInUp delay-0-6s">
                 <div className="image">
-                  <img src="assets/images/news/news3.png" alt="News" />
+                  <img src="assets/images/news/plywood1.png" alt="News" />
                   <span className="date">
                     <b>25</b> July
                   </span>
                 </div>
                 <div className="content">
-                  <span className="sub-title">Organic Fruits</span>
+                  <span className="sub-title">Plywood Product</span>
                   <h4>
                     Choose Awesome Vegetables For Your Daily Life Routine
                   </h4>

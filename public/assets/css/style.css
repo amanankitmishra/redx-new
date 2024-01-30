@@ -436,7 +436,7 @@ a.theme-btn {
   justify-content: center;
   text-transform: capitalize;
   font-family: "Livvic", sans-serif;
-  background: #e92424;
+  /* background: #e92424; */
 }
 
 .theme-btn i,
@@ -605,6 +605,7 @@ a.theme-btn.btn-white {
   background: rgba(255, 255, 255, 0.15);
   line-height: 40px;
   border-radius: 50%;
+
   text-align: center;
 }
 
@@ -4160,8 +4161,8 @@ blockquote,
 .main-menu .navbar-collapse li a {
   display: block;
   font-size: 18px;
+  margin-left: 15px;
   opacity: 1;
-  padding-left: 15px;
   font-weight: 600;
   color: #1a2428;
   text-transform: capitalize;
@@ -4174,7 +4175,10 @@ blockquote,
 @media only screen and (max-width: 991px) {
   .main-menu .navbar-collapse li a {
     padding: 10px 10px;
+    margin-left: 15px;
     line-height: 22px;
+    
+
   }
 }
 
@@ -4183,6 +4187,7 @@ blockquote,
     content: '';
     left: 50%;
     top: 100%;
+    margin-left:8px;
     opacity: 0;
     z-index: 5;
     width: 0;
