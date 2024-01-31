@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/product": "pages/product.js",
-  "/contact": "pages/contact.js",
-  "/404": "pages/404.js"
+  "/404": "pages/404.js",
+  "/": "pages/index.js",
+  "/value-chain": "pages/value-chain.js"
 }

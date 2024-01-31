@@ -31,7 +31,7 @@ export const HomeSlider1 = () => {
               <div className="slider-images">
                 <img
                   className="image"
-                  src="assets/images/slider/pvc-slide.png"
+                  src="assets/images/slider/pvc-slide.jpg"
                   alt="Slider"
                   style={{ borderRadius: '100%' }}
                 />
