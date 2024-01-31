@@ -9,7 +9,7 @@ const About = () => {
   return (
     <Layout>
       {/* Page Banner start */}
-      <PageBanner pageName={"about us"} />
+      <PageBanner pageName={"about us"} img="assets/images/banner/aboutimg.png" />
       {/* Page Banner End */}
       {/* About Section Start */}
       <section className="about-page-section rel z-1 py-130 rpy-100">
@@ -19,7 +19,7 @@ const About = () => {
               <div className="about-three-content rmb-35 wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-20">
                   <span className="sub-title mb-20">About Redx</span>
-                  <h2>Welcome to Our Redx</h2>
+                  <h2>Welcome to Redx</h2>
                 </div>
                 <p>
                   We pride ourselves on our extensive product range, spanning across 21 categories that include agricultural commodities, processed Agri products, Agri Inputs, Industrial Chemicals, and FMCG food products. This comprehensive approach allows us to cater to a wide array of needs, providing our customers with high-quality solutions.
@@ -162,10 +162,8 @@ const About = () => {
       </section>
       {/* Team Area End */}
       {/* About Section Start */}
-
       {/* About Section End */}
       {/* Feedback Section Start */}
-
       {/* Feedback Section End */}
       {/* Client Logo Section Start */}
       <div className="client-logo-section text-center bg-light-green py-60">

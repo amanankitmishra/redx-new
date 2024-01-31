@@ -450,23 +450,23 @@ const Index = () => {
       <section className="news-section pt-50 rpt-100 pb-100 rpb-40">
         <div className="container">
           <div className="section-title text-center mb-60">
-            <span className="sub-title mb-20">Read Article Tips</span>
-            <h2>Latest News &amp; Blog</h2>
+            {/* <span className="sub-title mb-20">Read Article Tips</span>
+            <h2>Latest News &amp; Blog</h2> */}
           </div>
           <div className="row justify-content-center">
             <div className="col-xl-4 col-md-6">
               <div className="news-item wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/news/news1.png" alt="News" />
-                  <span className="date">
+                  {/* <span className="date">
                     <b>25</b> July
-                  </span>
+                  </span> */}
                 </div>
                 <div className="content">
                   <span className="sub-title">Industrial Product</span>
-                  <h4>
+                  {/* <h4>
                     Unicode UTF8 Character Sets They Sltimate Guide Systems
-                  </h4>
+                  </h4> */}
                 </div>
               </div>
             </div>
@@ -474,15 +474,15 @@ const Index = () => {
               <div className="news-item wow fadeInUp delay-0-4s">
                 <div className="image">
                   <img src="assets/images/news/news2.png" alt="News" />
-                  <span className="date">
+                  {/* <span className="date">
                     <b>25</b> July
-                  </span>
+                  </span> */}
                 </div>
                 <div className="content">
                   <span className="sub-title">Agricultural Product</span>
-                  <h4>
+                  {/* <h4>
                     Quality Foods Requirments For Every Human Body’s
-                  </h4>
+                  </h4> */}
                 </div>
               </div>
             </div>
@@ -490,15 +490,15 @@ const Index = () => {
               <div className="news-item wow fadeInUp delay-0-6s">
                 <div className="image">
                   <img src="assets/images/news/plywood1.png" alt="News" />
-                  <span className="date">
+                  {/* <span className="date">
                     <b>25</b> July
-                  </span>
+                  </span> */}
                 </div>
                 <div className="content">
                   <span className="sub-title">Plywood Product</span>
-                  <h4>
+                  {/* <h4>
                     Choose Awesome Vegetables For Your Daily Life Routine
-                  </h4>
+                  </h4> */}
                 </div>
               </div>
             </div>

@@ -14,7 +14,8 @@ const PortfolioGridIsotope = dynamic(
 const PortfolioGrid = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Gallery"} />
+      
+      <PageBanner pageName={"Gallery"} img="assets/images/banner/gallery-banner.png" />
       <PortfolioGridIsotope />
       {/* Portfolio Fluid End */}
       {/* Client Logo Section Start */}

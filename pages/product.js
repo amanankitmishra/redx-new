@@ -88,7 +88,7 @@ const Products = () => {
 
     return (
         <Layout>
-            <PageBanner pageName={"Products"} />
+            <PageBanner pageName={"Products"} img="assets/images/banner/banner2.png"  />
 
             <Container sx={{ py: 1 }} maxWidth="lg">
                 <Grid container spacing={2}>

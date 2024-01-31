@@ -2,8 +2,8 @@ import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
 const ContactUs = () => {
   return (
-    <Layout>
-      <PageBanner pageName={"Contact Us"} />{" "}
+    <Layout>  
+      <PageBanner pageName={"Contact Us"} img="assets/images/banner/contact-banner3.png"   />{" "}
       <section className="contact-info-area rel z-1 pt-130 rpt-100">
         <div className="container">
           <div className="section-title contact-title mb-50 wow fadeInUp delay-0-2s">
@@ -54,7 +54,7 @@ const ContactUs = () => {
         <div className="contact-shapes">
           <img
             className="leafs"
-            src="assets/images/shapes/leaf.png"
+            src="assets/images/shapes/two-lear.png"
             alt="Leafs"
           />
           <img

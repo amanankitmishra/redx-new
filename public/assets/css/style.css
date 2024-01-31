@@ -8185,7 +8185,7 @@ blockquote,
 
 .news-shapes .two-leaf {
   left: 6%;
-  top: 10%;
+  top: -3%;
   -webkit-animation: upDownLeft 40s infinite;
   animation: upDownLeft 40s infinite;
 }
@@ -8206,7 +8206,7 @@ blockquote,
 
 .news-shapes .leaf-three {
   right: 0;
-  top: 15%;
+  top: 0%;
   -webkit-animation: down-up-one 15s infinite;
   animation: down-up-one 15s infinite;
 }
