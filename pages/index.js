@@ -175,7 +175,7 @@ const Index = () => {
                         Charms of pleasure of the moment so blinded by desire,
                         that they cannot foresee the pain On the other hand we
                         denounce with righteous indignation and dislike men who
-                        are beguiled and demoralized by the
+                        are beguiled and demoralized by the 
                       </p>
                       <div className="author-wrap">
                         <img

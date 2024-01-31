@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 const ShopGrid = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Value Chain"} />
+      <PageBanner pageName={"Value Chain"}img="assets/images/banner/banner.jpg"  />
       <Container className="py-5" maxWidth="lg">
         <div className="row my-100">
           <div className="col-md-6">

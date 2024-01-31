@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 const Business = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Our "} />
+      <PageBanner pageName={"Our Business "} img="assets/images/banner/banner.jpg" />
       {/* <div className="position-relative text-center" style={{ paddingTop: '100px', paddingBottom: '100px', backgroundColor: 'black', backgroundImage: 'url(/headerBack.jpg)', backgroundPosition: 'center center', backgroundSize: 'cover', width: '100%' }}>
         <h2 className="animate__animated animate__bounce text-white fw-bold">
           Value Chain at REDX
