@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import { Fragment, useState } from "react";
 import { sidebarToggle } from "../utils";
@@ -14,7 +15,6 @@ const Header = ({ header }) => {
     //   return <Header3 />;
 
     default:
-      
       return <DefaultHeader />;
   }
 };
@@ -104,22 +104,32 @@ const Nav = () => {
   const [nav, setNav] = useState(false);
   return (
     <nav className="main-menu navbar-expand-lg mobile-nav">
-         <div className="logo-outer">
-            <div className="logo transition: 'transform 0.3s ease-out, box-shadow 0.3s ease-out' ">
-              <Link href="/">
-                <a>
-                  <img
-                   className="img"
-                    src="assets/images/logos/logo.png"
-                    alt="Logo"
-                    title="Logo"
-                    style={{ height: "60px", width: "60px" }}
-
-                  />
-                </a>
-              </Link>
-            </div>
-          </div>
+      <div className="navbar-header">
+        <div className="mobile-logo my-15 h-25 w-25" >
+          <Link href="/">
+            <a>
+              <img src="assets/images/logos/logo.png" alt="Logo" className="img " title="Logo" style={{ height: '50px', width: '50px' }} />
+              <img
+                src="assets/images/logos/logo-white.png"
+                alt="Logo"
+                title="Logo"
+              />
+            </a>
+          </Link>
+        </div>
+        {/* Toggle Button */}
+        <button
+          type="button"
+          className="navbar-toggle"
+          data-toggle="collapse"
+          data-target=".navbar-collapse"
+          onClick={() => setNav(!nav)}
+        >
+          <span className="icon-bar" />
+          <span className="icon-bar" />
+          <span className="icon-bar" />
+        </button>
+      </div>
       <div className={`navbar-collapse collapse clearfix ${nav ? "show" : ""}`}>
         <DaskTopMenu />
         <MobileMenu />
@@ -191,7 +201,7 @@ const DefaultHeader = () => (
       <div className="container-fluid px-5 clearfix">
         <div className="header-inner d-flex align-items-center ">
           <div className="logo-outer">
-            <div className="logo ml-10 transition: 'transform 0.3s ease-out, box-shadow 0.3s ease-out' ">
+            <div className="logo ml-10 ">
               <Link href="/">
                 <a>
                   <img
@@ -310,7 +320,6 @@ const Header1 = () => (
               <Link href="/">
                 <a>
                   <img
-                    className="img"
                     src="assets/images/logos/logo.png"
                     alt="Logo"
                     title="Logo"

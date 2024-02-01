@@ -22,7 +22,7 @@ const ShopGrid = () => {
           <img src="assets/images/features/Sustainability.png" alt="Our Business" className="w-30 h-20 rounded-3" style={{ position: "absolute", }} />
 
           <div className="col-md-6 d-flex align-items-center ">
-            <p className="fs-5 text-dark">
+            <p className="fs-5 text-dark   pt-30">
               Sustainability is at the heart of everything we do at REDX. Our commitment to environmental responsibility is woven into every aspect of our business. We work closely with stakeholders to implement sustainable practices throughout our value chain, minimizing our carbon footprint and contributing to a healthier planet.
               From eco-friendly sourcing to reducing waste and optimizing energy usage, we are dedicated to making a positive impact. Our sustainability initiatives not only benefit the environment but also align with the evolving expectations of our customers who prioritize businesses with a genuine commitment to responsible practices.
             </p>

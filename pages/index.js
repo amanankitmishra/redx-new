@@ -294,22 +294,22 @@ const Index = () => {
 
             <div className="product-item wow fadeInUp delay-0-4s">
               <div >
-                <img src="assets/images/gellery/RawCashews.webp" alt="Product" style={{ height: "300px", }} />
+                <img src="assets/images/gellery/RawCashews.webp" alt="Product" style={{ height: "300px",  width: "100%"  }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-5s">
               <div>
-                <img src="assets/images/gellery/urea1.png" alt="Product" style={{ height: "300px", }} />
+                <img src="assets/images/gellery/urea1.png" alt="Product" style={{ height: "300px",  width: "100%"  }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-5s">
               <div>
-                <img src="assets/images/gellery/furnituregradeplywood.jpg" alt="Product" style={{ height: "300px", }} />
+                <img src="assets/images/gellery/furnituregradeplywood.jpg" alt="Product" style={{ height: "300px",  width: "100%"  }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-5s">
               <div>
-                <img src="assets/images/gellery/Rise1.png" alt="Product" style={{ height: "300px", }} />
+                <img src="assets/images/gellery/Rise1.png" alt="Product" style={{ height: "300px",  width: "100%" ,  width: "100%"  }} />
               </div>
             </div>
             <div className="product-item wow fadeInUp delay-0-2s">
@@ -324,7 +324,7 @@ const Index = () => {
             </div>
             <div className="product-item wow fadeInUp delay-0-5s">
               <div>
-                <img src="assets/images/gellery/portfolio11.jpg" alt="Product" style={{ height: "300px", }} />
+                <img src="assets/images/gellery/portfolio11.jpg" alt="Product" style={{ height: "300px",  width: "100%"  }} />
               </div>
             </div>
 

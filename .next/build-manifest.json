@@ -35,15 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/sustainability": [
+    "/our-business": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/sustainability.js"
-    ],
-    "/value-chain": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/value-chain.js"
+      "static/chunks/pages/our-business.js"
     ]
   },
   "ampFirstPages": []
