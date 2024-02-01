@@ -4,7 +4,7 @@ import Layout from "../src/layout/Layout";
 const E404 = () => {
   return (
     <Layout>
-      <PageBanner pageName={"404"} pageTitle={"404 Error"} />
+      <PageBanner pageName={"404"} pageTitle={"404 Error"} img="assets/images/banner/banner.jpg"  />
       <section className="error-section rel z-1 py-130 rpy-100">
         <div className="container">
           <div className="error-inner text-center wow fadeInUp delay-0-2s">

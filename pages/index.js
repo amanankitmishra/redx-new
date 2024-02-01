@@ -447,7 +447,7 @@ const Index = () => {
       </section>
       {/* Feedback Section End */}
       {/* News Section Start */}
-      <section className="news-section pt-50 rpt-100 pb-100 rpb-40">
+      <section className="news-section rpt-100 pb-100 rpb-40">
         <div className="container">
           <div className="section-title text-center mb-60">
             {/* <span className="sub-title mb-20">Read Article Tips</span>
