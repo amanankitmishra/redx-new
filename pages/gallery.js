@@ -1,6 +1,5 @@
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
-
 import dynamic from "next/dynamic";
 import ClientLogoSlider from "../src/components/ClientLogoSlider";
 
@@ -39,7 +38,7 @@ const PortfolioGrid = () => {
             src="assets/images/shapes/cl-shape3.png"
             alt="Shape"
           />
-          <img
+          <img 
             className="shape-four"
             src="assets/images/shapes/cl-shape4.png"
             alt="Shape"

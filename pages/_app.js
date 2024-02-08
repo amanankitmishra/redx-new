@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     <Fragment>
       <Head>
         <title>
-          Redx.BlueBrainTech.com
+          Redx.com
         </title>
         {/* Favicon Icon */}
         <link

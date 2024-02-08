@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 const Business = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Our "} />
+      <PageBanner pageName={"Our Business "} img="assets/images/banner/banner.jpg" />
       {/* <div className="position-relative text-center" style={{ paddingTop: '100px', paddingBottom: '100px', backgroundColor: 'black', backgroundImage: 'url(/headerBack.jpg)', backgroundPosition: 'center center', backgroundSize: 'cover', width: '100%' }}>
         <h2 className="animate__animated animate__bounce text-white fw-bold">
           Value Chain at REDX
@@ -19,7 +19,7 @@ const Business = () => {
             <img src="assets/images/features/business.png" alt="Our Business" className="w-100 hover " height={"450px"} style={{ borderRadius: "25px" }} />
           </div>
           <div className="col-md-6 d-flex align-items-center ">
-            <p className="fs-5 text-dark">
+            <p className="fs-5 text-dark  pt-30">
               At REDX, our business philosophy is centered around delivering excellence and creating a positive impact. Our diverse product portfolio spans 21 categories, showcasing our commitment to meeting a wide range of customer needs. We operate globally, leveraging our expansive network to ensure the highest quality products tailored to specific requirements.
               Beyond profits, we are deeply committed to the well-being of our team members and the communities we serve. Our business goes beyond transactions; it's about building relationships, fostering sustainability, and contributing to the social fabric of the places we call home.
               In every aspect of our business – from the value chain to sustainability practices and our overall business philosophy – REDX stands as a symbol of quality, responsibility, and positive change.
