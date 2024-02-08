@@ -63,7 +63,7 @@ const Index = () => {
                 <img src="assets/images/category/Melamine-img1.jpg" alt="Icon" style={{ borderRadius: "50%" }} />
               </div>
               <h5>
-               Melamine Powder
+                Melamine Powder
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -72,7 +72,7 @@ const Index = () => {
                 <img src="assets/images/category/pvc-icon1.webp" alt="Icon" style={{ borderRadius: "50%", height: "100px" }} />
               </div>
               <h5>
-               PVC Resin H1000R  ( CHINA )
+                PVC Resin H1000R  ( CHINA )
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -81,7 +81,7 @@ const Index = () => {
                 <img src="assets/images/category/pvc-h6.jpg" alt="Icon" style={{ borderRadius: "50%", height: "100px", width: '100%' }} />
               </div>
               <h5>
-               PVC Resin H66
+                PVC Resin H66
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -99,12 +99,12 @@ const Index = () => {
                 <img src="assets/images/category/hygain-hs-1000r-pvc-resin.png" alt="Icon" style={{ borderRadius: "50%", height: "100px", width: '100%' }} />
               </div>
               <h5>
-               PVC Resin H1000R (CHINA)
+                PVC Resin H1000R (CHINA)
                 {/* Furniture Grade */}
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
-          
+
           </div>
         </div>
       </section>
@@ -292,40 +292,27 @@ const Index = () => {
           </div>
           <Slider {...productActive} className="product-active">
 
-            <div className="product-item wow fadeInUp delay-0-4s">
-              <div >
-                <img src="assets/images/gellery/RawCashews.webp" alt="Product" style={{ height: "300px", }} />
-              </div>
+
+            <div className="product-item wow fadeInUp delay-0-2s productGalleryImage">
+              <img src="assets/images/gellery/Blackpaper.png" alt="Product" />
             </div>
-            <div className="product-item wow fadeInUp delay-0-5s">
-              <div>
-                <img src="assets/images/gellery/urea1.png" alt="Product" style={{ height: "300px", }} />
-              </div>
+            <div className="product-item wow fadeInUp delay-0-5s productGalleryImage">
+              <img src="assets/images/gellery/portfolio11.jpg" alt="Product" />
             </div>
-            <div className="product-item wow fadeInUp delay-0-5s">
-              <div>
-                <img src="assets/images/gellery/furnituregradeplywood.jpg" alt="Product" style={{ height: "300px", }} />
-              </div>
+            <div className="product-item wow fadeInUp delay-0-4s productGalleryImage">
+              <img src="assets/images/gellery/RawCashews.webp" alt="Product" />
             </div>
-            <div className="product-item wow fadeInUp delay-0-5s">
-              <div>
-                <img src="assets/images/gellery/Rise1.png" alt="Product" style={{ height: "300px", }} />
-              </div>
+            <div className="product-item wow fadeInUp delay-0-5s productGalleryImage">
+              <img src="assets/images/gellery/urea1.png" alt="Product"/>
             </div>
-            <div className="product-item wow fadeInUp delay-0-2s">
-              <div >
-                <img src="assets/images/gellery/Rise.png" alt="Product" style={{ height: "300px", width: "100%" }} />
-              </div>
+            <div className="product-item wow fadeInUp delay-0-5s productGalleryImage">
+              <img src="assets/images/gellery/furnituregradeplywood.jpg" alt="Product"/>
             </div>
-            <div className="product-item wow fadeInUp delay-0-2s" >
-              <div>
-                <img src="assets/images/gellery/Blackpaper.png" alt="Product" style={{ height: "300px", width: "100%" }} />
-              </div>
+            <div className="product-item wow fadeInUp delay-0-5s productGalleryImage">
+              <img src="assets/images/gellery/Rise1.png" alt="Product"/>
             </div>
-            <div className="product-item wow fadeInUp delay-0-5s">
-              <div>
-                <img src="assets/images/gellery/portfolio11.jpg" alt="Product" style={{ height: "300px", }} />
-              </div>
+            <div className="product-item wow fadeInUp delay-0-2s productGalleryImage">
+              <img src="assets/images/gellery/Rise.png" alt="Product" />
             </div>
 
           </Slider>
@@ -414,14 +401,14 @@ const Index = () => {
             <div className="row align-items-center">
               <div className="col-lg-8">
                 <div className="section-title mt-20 mb-15">
-                  <span className="sub-title mb-15">Need Any Supports</span>
-                  <h3>Get Our Quality Foods</h3>
+                  <span className="sub-title mb-15">Need Help?</span>
+                  <h3>Get in touch for any queries or information.</h3>
                 </div>
               </div>
               <div className="col-lg-4 text-lg-right">
                 <Link href="/contact">
                   <a className="theme-btn   my-15">
-                    Get In Touch <i className="fas fa-angle-double-right" />
+                    Contact Us <i className="fas fa-angle-double-right" />
                   </a>
                 </Link>
               </div>

@@ -21,9 +21,14 @@ export const HomeSlider1 = () => {
             <div className="col-lg-6">
               <div className="slider-content">
                 <div className="sub-title mb-20">Welcome to Redx</div>
-                <h1>Industrial Product</h1>
-                <h6>Cultivating Trust, Harvesting Nutrition</h6>
+                <h1>PVC RESIN SG5</h1>
+                <h6>We source only the best quality.</h6>
                 <div className="slider-btns mt-30">
+                  <Link href="/contact">
+                    <a className="theme-btn style-two">
+                      Contact Us <i className="fas fa-angle-double-right" />
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -31,8 +36,9 @@ export const HomeSlider1 = () => {
               <div className="slider-images">
                 <img
                   className="image"
-                  src="assets/images/slider/pvc-slide.png"
+                  src="assets/images/home/pvc.png"
                   alt="Slider"
+                  height={'450px'}
                   style={{ borderRadius: '100%' }}
                 />
                 {/* <img
@@ -60,7 +66,7 @@ export const HomeSlider1 = () => {
             src="assets/images/slider/half-leaf.png"
             alt="Leaf"
           />
-        <img
+          <img
             className="leaf-one"
             src="assets/images/slider/two-lear.png"
             alt="Leaf"

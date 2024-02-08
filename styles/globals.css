@@ -68,3 +68,23 @@ img.mfp-img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.productGalleryImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition-duration: 1s;
+}
+
+.productGalleryImage:hover {
+  background-color: #c10201;
+  transition-duration: 2s;
+  transform: scale(0.9);
+}
+
+.productGalleryImage img {
+  height: 280px;
+  border-radius: 50%;
+  margin: auto;
+}
