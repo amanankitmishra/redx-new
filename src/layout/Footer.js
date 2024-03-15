@@ -37,17 +37,6 @@ const ScrollTopBtn = () => {
 const DefaultFooter = () => (
   <footer className="main-footer bg-dark text-white">
     <div className="container pt-40">
-      {/* <div className="footer-top-newsletter py-80 mb-75">
-        <div className="section-title">
-          <h2>Newsletter Subscribe</h2>
-        </div>
-        <form onSubmit={(e) => e.preventDefault()} action="#">
-          <input type="email" placeholder="Email Address" required="" />
-          <button className="theme-btn">
-            subscribe now <i className="fas fa-angle-double-right" />
-          </button>
-        </form>
-      </div> */}
       <div className="row justify-content-center">
         <div className="col-lg-4 col-md-6 order-md-2">
           <div className="footer-widget about-widget text-center">
@@ -130,19 +119,20 @@ const DefaultFooter = () => (
             <ul>
               <li>
                 <i className="fal fa-map-marker-alt" />
-                Delhi sec 2 B12
+                12 woodlands square, #12-74 woods square tower 1 Singapore-737715
               </li>
               <li>
                 <i className="far fa-phone" />
-                <a href="calto:+012(345)67899">+012 (345) 678 99</a>
+                <a href="calto:+012(345)67899">+65-65149885</a>
+              </li>
+              <li>
+                <i className="far fa-phone" />
+                <a href="calto:+012(345)67899">+65-65179892</a>
               </li>
               <li>
                 <i className="far fa-envelope" />
-                <a href="mailto:support@gmail.com">Black@redx.com</a>
-              </li>
-              <li>
-                <i className="far fa-envelope" />
-                <a href="mailto:support@gmail.com">Black@redx.com</a>
+                <a href="mailto:support@gmail.com">info@redx.com.sg
+                </a>
               </li>
             </ul>
           </div>
@@ -150,20 +140,6 @@ const DefaultFooter = () => (
       </div>
       <div className="copyright-area pt-25 ">
         <p>Copyright © 2024 Redx. All Rights Reserved.</p>
-        {/* <ul className="footer-menu">
-          <li>
-            <Link href="/contact">Setting &amp; Privacy</Link>
-          </li>
-          <li>
-            <Link href="/faqs">
-              <a>Faqs</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact">Payments</Link>
-          </li>
-        </ul> */}
-        {/* Scroll Top Button */}
         <ScrollTopBtn />
       </div>
     </div>

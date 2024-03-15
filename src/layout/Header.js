@@ -47,55 +47,19 @@ const SearchBtn = () => {
 const DaskTopMenu = () => (
   <ul className="navigation clearfix d-none  d-lg-flex">
     <li className="dropdown">
-      {/* <a href="#">Home</a> */}
       <Link href="/">Home</Link>
-
-      {/* <div className="dropdown-btn">
-        <span className="fas fa-chevron-down" />
-      </div> */}
     </li>
 
     {/* <li className="dropdown"> */}
     <li>
       <Link href="/about">About us</Link>
-      {/* <ul>
-        <PagesDasktop />
-      </ul> */}
-      {/* <div className="dropdown-btn">
-        <span className="fas fa-chevron-down" />
-      </div> */}
     </li>
     <li>
       <Link href="/product">Product</Link>
-      {/* <ul>
-        <Portfolio />
-      </ul> */}
-
     </li>
     <li>
       <Link href="/gallery">Gallery</Link>
-
-
     </li>
-
-    {/* <li className="dropdown">
-      <a href="#">blog</a>
-      <ul>
-        <Blog />
-      </ul>
-      <div className="dropdown-btn">
-        <span className="fas fa-chevron-down" />
-      </div>
-    </li> */}
-    {/* <li className="dropdown">
-      <a href="#">shop</a>
-      <ul>
-        <Shop />
-      </ul>
-      <div className="dropdown-btn">
-        <span className="fas fa-chevron-down" />
-      </div>
-    </li> */}
     <Contact />
   </ul>
 );
@@ -149,7 +113,7 @@ const DefaultHeader = () => (
                 <ul>
                   <li>
                     <i className="far fa-envelope" /> <b>Email Us :</b>{" "}
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <a href="mailto:info@redx.com.sg">info@redx.com.sg</a>
                   </li>
                   <li>
                     <i className="far fa-clock" /> <b>Working Hours :</b> Monday
@@ -163,7 +127,7 @@ const DefaultHeader = () => (
                 <ul>
                   <li>
                     <i className="far fa-phone" /> <b>Call :</b>{" "}
-                    <a href="callto:+012(345)67899">+012 (345) 678 99</a>
+                    <a href="callto:+65-65149885">+65-65149885</a>
                   </li>
                   <li>
                     <div className="social-style-one">
@@ -264,7 +228,7 @@ const Header1 = () => (
                 <ul>
                   <li>
                     <i className="far fa-envelope" /> <b>Email Us :</b>{" "}
-                    <a href="mailto:support@gmail.com">Black@redx.com</a>
+                    <a href="info@redx.com.sg.com">info@redx.com.sg</a>
                   </li>
                   <li>
                     <i className="far fa-clock" /> <b>Working Hours :</b> Monday
@@ -278,7 +242,7 @@ const Header1 = () => (
                 <ul>
                   <li>
                     <i className="far fa-phone" /> <b>Call :</b>{" "}
-                    <a href="callto:+012(345)67899">+012 (345) 678 99</a>
+                    <a href="callto:+65-65149885">+65-65149885</a>
                   </li>
                   <li>
                     <div className="social-style-one">
