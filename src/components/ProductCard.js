@@ -25,6 +25,7 @@ export const ProductDescription = (product) => {
           <img
             src={product.image}
             alt={product.image}
+
             height={'100%'}
             className='products'
             width={'100%'}
@@ -36,6 +37,7 @@ export const ProductDescription = (product) => {
         <div style={{ height: '350px', paddingLeft: '0px',  paddingTop: '24px', textAlign: 'start', fontFamily: 'sans-serif' }}>
           <h4 style={{ fontWeight: 'bold', marginBottom: '20px' }}>{product.name}</h4>
           <p style={{ fontSize: '14px' }} dangerouslySetInnerHTML={{ __html: product.description }} />
+          {console.log(product.description)}
         </div>
       </Col>
     </Row>
