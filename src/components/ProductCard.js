@@ -34,7 +34,7 @@ export const ProductDescription = (product) => {
         </div>
       </Col>
       <Col xs={12} md={8} lg={8}>
-        <div style={{ height: '350px', paddingLeft: '0px',  paddingTop: '24px', textAlign: 'start', fontFamily: 'sans-serif' }}>
+        <div style={{ height: '350px', paddingLeft: '0px', paddingTop: '24px', textAlign: 'start', fontFamily: 'sans-serif' }}>
           <h4 style={{ fontWeight: 'bold', marginBottom: '20px' }}>{product.name}</h4>
           <p style={{ fontSize: '14px' }} dangerouslySetInnerHTML={{ __html: product.description }} />
           {console.log(product.description)}

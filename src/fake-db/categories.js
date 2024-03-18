@@ -32,7 +32,7 @@ export const categories = [
                 page: 7,
                 description: "<div class='container'><div class='row pt-3'><div class='col-md-6'>• Commodity: Black Pepper<br/>• Density: 400/500/550/570/580 G/L MIN<br/>• Moisture: 13.5% MAX<br/>• Admixture: 1% MAX<br/>• Packing: in new jute bag; PP bag</div><div class='col-md-6'>Commodity : Black Pepper Cleaned<br/>Density : 500/550/570/580 G/L MIN<br/>Moisture : 12.5-13% MAX<br/>Admixture : 0.25-0.5% MAX<br/>Packing : in new jute bag; PP bag</div></div></div>"
             },
-         
+
         ]
     },
     {
@@ -45,28 +45,52 @@ export const categories = [
                 name: "Soda ash ",
                 image: "/assets/images/products/soda-ash.png",
                 page: 8,
-                description: `Introducing PVC Resin SG5, a high-quality polyvinyl chloride resin that stands out for its exceptional properties and versatile applications. Known for its elevated purity and consistency, PVC Resin SG5 is a preferred choice across industries where stringent quality standards are paramount. Its excellent processability makes it ideal for diverse manufacturing processes, including injection molding and extrusion, ensuring efficiency in production.<br />Noteworthy for its robust mechanical strength and durability, PVC Resin SG5 is often utilized in the production of pipes, fittings, profiles, and cables, providing long-lasting and resilient materials for construction applications. Its thermoplastic characteristics enable repeated melting and reprocessing without significant degradation, contributing to sustainability and recyclability.`
+                description: `Soda ash, the trade name for sodium carbonate (Na2CO3), is a white,
+                anhydrous, powdered, or granular material. It is an essential raw
+                material used in the manufacture of glass, detergents and soaps,
+                chemicals, and other industrial products.
+                `
             },
             {
                 id: 2,
                 name: "Caustic soda",
                 image: "/assets/images/products/Caustic-soda.png",
                 page: 9,
-                description: `Introducing PVC Resin SG5, a high-quality polyvinyl chloride resin that stands out for its exceptional properties and versatile applications. Known for its elevated purity and consistency, PVC Resin SG5 is a preferred choice across industries where stringent quality standards are paramount. Its excellent processability makes it ideal for diverse manufacturing processes, including injection molding and extrusion, ensuring efficiency in production.<br />Noteworthy for its robust mechanical strength and durability, PVC Resin SG5 is often utilized in the production of pipes, fittings, profiles, and cables, providing long-lasting and resilient materials for construction applications. Its thermoplastic characteristics enable repeated melting and reprocessing without significant degradation, contributing to sustainability and recyclability.`
+                description: `Caustic soda, also known as sodium hydroxide (NaOH), is a highly
+                versatile chemical compound used in various industrial processes.
+                Caustic Soda is a waxy, white solid and readily absorbs water and forms
+                aqueous solutions. It is a strong alkaline chemical that is widely used in
+                chemical manufacturing, water treatment, textile and paper production,
+                food processing, metallurgy, and soap manufacturing, among others.<br/>
+                Caustic soda plays a crucial role in these industries due to its ability to
+                react with acids, regulate pH levels, and perform various chemical and
+                cleaning processes.`
             },
             {
                 id: 3,
                 name: "Nitrogen",
                 image: "/assets/images/products/nitrogen.png",
                 page: 10,
-                description: `Introducing our Nitrogen-Enriched Agro Products, a revolutionary line designed to maximize crop yields and promote sustainable agriculture. Nitrogen, a vital component in plant nutrition, is crucial for fostering robust growth and ensuring bountiful harvests. Our range of agro products is specially formulated to harness the power of nitrogen, delivering unparalleled results for farmers and cultivators.`
+                description: `Nitrogen is a common normally colorless, odorless, tasteless, and
+                mostly diatomic non-metal gas. It has five electrons in its outer shell,
+                so it is trivalent in most compounds. The greatest single commercial
+                use of nitrogen is as a component in the manufacture of ammonia,
+                subsequently used as fertilizer and to produce nitric acid.<br/>
+                Nitric acid salts include some important compounds, for example
+                potassium nitrate, nitric acid, and ammonium nitrate. Nitrated organic
+                compounds, such as nitroglycerin and trinitrotoluene, are often
+                explosives.`
             },
             {
                 id: 4,
                 name: "Urea",
                 image: "/assets/images/products/Urea1.png",
                 page: 11,
-                description: `Introducing our Urea Granular, a top-tier nitrogen fertilizer meticulously formulated to enhance plant growth, increase crop yields, and contribute to the overall vitality of your agricultural ventures. Urea serves as a concentrated source of nitrogen, a pivotal nutrient crucial for the development and well-being of plants, making our Urea Granular an indispensable choice for farmers aspiring to achieve optimal results.<br />Our Urea Granular features a notably high nitrogen content, ensuring a potent and efficient supply of this essential nutrient to your crops. This nutrient plays a pivotal role in promoting robust vegetative growth, improving leaf development, and enhancing the overall vigor of plants. The granular form of our urea ensures easy application and even distribution, facilitating precise and efficient fertilization practices that promote consistent nutrient availability throughout the growing season.<br />Known for its quick-release nitrogen properties, Urea Granular provides readily available nutrients for plants, particularly during critical growth stages, offering the necessary boost for optimal development. Versatility is a hallmark of our product, making it suitable for a wide range of crops, adaptable to various soil types, and accommodating diverse agricultural practices.`
+                description: `Urea is a white dry organic compound and a crystalline substance. Urea
+                is a raw material used in the manufacture of many chemicals, such as
+                various plastics, urea-formaldehyde resins and adhesives. It is also
+                essential for making feedstock, glue, fertilizer, commercial products,
+                and in resin production`
             },
             {
                 id: 5,
@@ -74,14 +98,20 @@ export const categories = [
                 image: "/assets/images/products/playwood1.png",
                 page: 12,
                 description: "<div class='container'><div class='row'><div class='col'>Origin<br/>Type of Core<br/>Type of Glue<br/>Type of Film<br/>Thickness<br/>Panel Size<br/></div><div class='col'>China / Malaysia<br/>Birch / Hardwood / Combi / Poplar<br/>WBP / MR<br/>Brown / Black<br/>9.0mm to 25mm<br/>4’x8’ / 2’x4’ etc.</div></div></div><div class='container mt-4'><div class='row'><div class='col'>Our Brands:<br/>MAC- Combi Core – WBP Glue – Brown film with imprint on both sides<br/>DELTA – Hardwood Core – WBP Glue – Brown film with imprint on both sides</div></div></div> "
-              
+
             },
             {
                 id: 5,
                 name: "Melamine Powder",
                 image: "/assets/images/products/minral-pouder.png",
                 page: 13,
-                description: `Introducing our Melamine Powder, a high-quality and versatile compound that serves a myriad of industrial applications. Renowned for its exceptional chemical and physical properties, melamine powder is a key ingredient in the production of durable and heat-resistant materials.<br />Melamine is widely utilized in the manufacturing of melamine-formaldehyde resins, which find application in the production of laminates, coatings, adhesives, and flame-retardant textiles. Its remarkable heat resistance and hardness make it an ideal component in the creation of heat-resistant tableware, kitchenware, and decorative laminates.<br />Our Melamine Powder is characterized by its fine particle size and purity, ensuring consistent quality in various manufacturing processes. Whether used for molding decorative surfaces, creating durable utensils, or producing flame-retardant materials, melamine powder stands as a reliable and versatile choice.`
+                description: `Melamine Powder an efficient chemical compound in use, is valued in
+                different areas of industries due to its wide industrial applications. It is
+                a crucial element in making a durable plastic, laminate, and coating.
+                Heat resistant property, shape retention ability under pressure, all those
+                features can be put into service when producing kitchenware,
+                tableware, and all sorts of furniture. Because it has a low toxicity level
+                it has been used for food-grade goods.`
             }
         ]
     },
@@ -95,21 +125,40 @@ export const categories = [
                 name: "PVC Resin SG5 (CHINA)",
                 image: "/assets/images/products/pvcresin.jpg",
                 page: 14,
-                description: `Introducing PVC Resin SG5, a high-quality polyvinyl chloride resin that stands out for its exceptional properties and versatile applications. Known for its elevated purity and consistency, PVC Resin SG5 is a preferred choice across industries where stringent quality standards are paramount. Its excellent processability makes it ideal for diverse manufacturing processes, including injection molding and extrusion, ensuring efficiency in production.<br />Noteworthy for its robust mechanical strength and durability, PVC Resin SG5 is often utilized in the production of pipes, fittings, profiles, and cables, providing long-lasting and resilient materials for construction applications. Its thermoplastic characteristics enable repeated melting and reprocessing without significant degradation, contributing to sustainability and recyclability.`
+                description: `PVC Resin SG5 is a white and free-flowing resin. The resin can be
+                mixed with a variety of additives to achieve a wide range of desired
+                characteristics that are required for many different applications.
+                PVC is a versatile material with good colouration, corrosion resistance,
+                water resistance, chemical stability, and thermal stability.<br/>
+                Applications: PVC Resin SG5 is used in plastic production. Common
+                items in the construction industry made from PVC include pipes,
+                electrical cables, flooring, plastic membranes, and signage. PVC is used
+                in packaging materials, adhesive tapes, and furniture production.`
             },
             {
                 id: 2,
                 name: "PVC Resin H66 (TAIWAN)",
                 image: "/assets/images/products/PVC-H66.jpg",
                 page: 15,
-                description: `Introducing PVC Resin H66, a high-performance polyvinyl chloride resin designed to meet the demanding requirements of various industries. With a focus on delivering superior mechanical properties, this resin is known for its outstanding strength, durability, and versatility in manufacturing applications.<br />PVC Resin H66 is characterized by its high molecular weight, contributing to enhanced mechanical strength in end products. This makes it an excellent choice for applications where durability and structural integrity are paramount, such as in the production of pipes, fittings, and construction materials.<br />Noteworthy for its reliable processability, H66 facilitates efficient molding and shaping during manufacturing processes like extrusion and injection molding. This characteristic ensures ease of use for manufacturers and contributes to the production of high-quality, consistent end products.`
+                description: `PVC Resin H-66 is a type of polyvinyl chloride (PVC) resin used
+                primarily in the production of rigid PVC products. Soft and Semi-rigid
+                Product for General Purpose (PVC Film, Sheet, Beach Chair, Venetian
+                Blind), Rigid Pipe, Hose, Wire and Cable Insulation.`
             },
             {
                 id: 3,
                 name: "PVC Resin LS100H (KOREA)",
                 image: "/assets/images/products/pvc-resin-powder.jpg",
                 page: 16,
-                description: `Introducing PVC Resin LS100H, a specialized polyvinyl chloride resin designed to meet the unique demands of specific applications, particularly in the production of flexible and high-performance materials. Recognized for its outstanding clarity, flexibility, and processability, PVC Resin LS100H is a preferred choice for industries where transparency and pliability are key considerations.<br />Notable for its high purity and consistent quality, LS100H is tailored for applications requiring transparency, such as in the manufacturing of clear films, sheets, and flexible tubing. The resin's excellent processability makes it well-suited for various production methods, ensuring ease of molding and shaping in applications like film extrusion.`
+                description: `PVC resin LS100H is a homopolymer produced by suspension
+                polymerization and can be used in extrusion and calendaring processes.
+                PVC resin LS100H is a versatile resin that can be applied to a wide
+                variety of soft and rigid products such as sheet metal, tubing, profiles,
+                wire, sheathing, and tubing.<br/>
+                PVC Resin LS100H typically consists of 99% PVC content with a
+                volatile content of around 0.4% and residual VCM content below 10
+                ppm, appearing as a fine white powder with a density between 0.45 and
+                0.55 g/cm³.`
             },
             {
                 id: 4,
@@ -117,14 +166,29 @@ export const categories = [
                 image: "/assets/images/products/PVC-Resin.png",
 
                 page: 17,
-                description: `Introducing PVC Resin H-1000R, a high-quality polyvinyl chloride resin renowned for its exceptional properties, making it a versatile choice for various industrial applications. Characterized by its high molecular weight, H-1000R is designed to offer enhanced mechanical strength and durability, making it a preferred material for applications where structural integrity is crucial.<br />PVC Resin H-1000R exhibits excellent processability, ensuring ease of molding and shaping during manufacturing processes such as extrusion and injection molding. This attribute not only contributes to efficient production but also allows for the creation of consistent, high-quality end products.<br />Known for its adaptability, H-1000R finds application in a range of industries, including construction, automotive, and infrastructure. Its ability to withstand environmental factors and deliver long-lasting performance makes it an ideal choice for projects requiring resilience and reliability.`
+                description: `PVC Resin H1000R is a type of polyvinyl chloride (PVC) resin used in
+                various applications, typically appearing as a white powder with
+                specific chemical and physical properties suitable for manufacturing
+                pipes, fittings, profiles, and other rigid PVC products.<br/>
+                Features thermos plasticity, being insoluble into water, gasoline, and
+                alcohol, swelled or dissolved into ether, ketone, chlorinated aliphatic
+                hydrocarbons, and aromatic hydrocarbon, high resistance to corrosion,
+                and good dielectric property.`
             },
             {
                 id: 5,
                 name: "P.E.T Resin ",
-                image: "/assets/images/products/minral-pouder.png",
+                image: "/assets/images/products/pet-resin.png",
                 page: 18,
-                description: `Introducing our Melamine Powder, a high-quality and versatile compound that serves a myriad of industrial applications. Renowned for its exceptional chemical and physical properties, melamine powder is a key ingredient in the production of durable and heat-resistant materials.<br />Melamine is widely utilized in the manufacturing of melamine-formaldehyde resins, which find application in the production of laminates, coatings, adhesives, and flame-retardant textiles. Its remarkable heat resistance and hardness make it an ideal component in the creation of heat-resistant tableware, kitchenware, and decorative laminates.<br />Our Melamine Powder is characterized by its fine particle size and purity, ensuring consistent quality in various manufacturing processes. Whether used for molding decorative surfaces, creating durable utensils, or producing flame-retardant materials, melamine powder stands as a reliable and versatile choice.`
+                description: `PET, which stands for polyethylene terephthalate, is a form of polyester
+                (just like the clothing fabric). Polyethylene terephthalate is highly
+                flexible, colourless, and semi-crystalline resin in its natural state. <br/>
+                Depending upon how it is processed, it can be semi-rigid to rigid. It
+                shows good dimensional stability, resistance to impact, moisture,
+                alcohols, and solvents. It is extruded or moulded into plastic bottles and
+                containers for packaging foods and beverages, personal care products,
+                and many other consumer products.
+                `
             }
         ]
     },
