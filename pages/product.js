@@ -22,7 +22,7 @@ const Products = () => {
     };
 
     const next = () => {
-        setSelected(selected => Math.min(selected + 1, 21));
+        setSelected(selected => Math.min(selected + 1, 18));
     };
     const [scrollInterval, setScrollInterval] = useState(null);
     const scrollAmount = useRef(null);
@@ -84,12 +84,11 @@ const Products = () => {
     const AgriculturalProducts = getProductsByCategoryId(1)
     const AgroProducts = getProductsByCategoryId(2)
     const IndustrialProducts = getProductsByCategoryId(3)
-    const PlywoodProducts = getProductsByCategoryId(4)
+    // const PlywoodProducts = getProductsByCategoryId(4)
 
     return (
         <Layout>
             <PageBanner pageName={"Products"} img="assets/images/banner/banner2.png"  />
-
             <Container sx={{ py: 1 }} maxWidth="lg">
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={12}>
@@ -173,7 +172,7 @@ const Products = () => {
                             <Grid container spacing={2} sx={{ pl: 3, }} >
                                 <Grid item xs={12} md={12} lg={12}>
                                     <Typography variant="h5" sx={{ paddingTop: "50px" }}>
-                                        Agricultural Products
+                                         Soft Commodities 
                                         <hr style={{ color: "red", width: "50%", marginLeft: 0 }}></hr>
                                     </Typography>
                                     <Grid container >
@@ -190,7 +189,7 @@ const Products = () => {
                             <Grid container spacing={2} sx={{ pl: 3, }} >
                                 <Grid item xs={12} md={12} lg={12} >
                                     <Typography variant="h5" sx={{ paddingTop: "50px" }}>
-                                        Agro Chemicals
+                                         Industrial Products 
                                         <hr style={{ color: "red", width: "50%", marginLeft: 0 }}></hr>
                                     </Typography>
 
@@ -208,29 +207,11 @@ const Products = () => {
                             <Grid container spacing={2} sx={{ pl: 3, }} >
                                 <Grid item xs={12} md={12} lg={12}>
                                     <Typography variant="h5" sx={{ paddingTop: "50px" }} >
-                                        Industrial Products
+                                       Polymers
                                         <hr style={{ color: "red", width: "50%", marginLeft: 0 }}></hr>
                                     </Typography>
                                     <Grid container sx={{ paddingRight: "10px" }}>
                                         {IndustrialProducts.map(product => (
-                                            <Grid key={product.id} item xs={6} md={2}>
-                                                {ProductCard(product)}
-                                            </Grid>
-                                        ))}
-                                    </Grid>
-                                </Grid>
-                            </Grid>
-                        </Box>
-                        <Box className="page">
-                            <Grid container spacing={2} sx={{ pl: 3, }} >
-                                <Grid item xs={12} md={12} lg={12}>
-                                    <Typography variant="h5" sx={{ paddingTop: "50px" }} >
-                                        Plywood Products
-                                        <hr style={{ color: "red", width: "50%", marginLeft: 0 }}></hr>
-                                    </Typography>
-
-                                    <Grid container sx={{ paddingRight: { xs: '0px', md: '30px', lg: '50px' } }}>
-                                        {PlywoodProducts.map(product => (
                                             <Grid key={product.id} item xs={6} md={2}>
                                                 {ProductCard(product)}
                                             </Grid>
@@ -246,6 +227,27 @@ const Products = () => {
                                 </Grid>
                             </Grid>
                         </Box>
+                        {/* <Box className="page" >
+                            <Grid container spacing={2}>
+                                <Grid item xs={12} md={12}>
+                                    {ProductDescription(AgriculturalProducts[1])}
+                                </Grid>
+                            </Grid>
+                        </Box> */}
+                        {/* <Box className="page" >
+                            <Grid container spacing={2}>
+                                <Grid item xs={12} md={12}>
+                                    {ProductDescription(AgriculturalProducts[2])}
+                                </Grid>
+                            </Grid>
+                        </Box> */}
+                        {/* <Box className="page" >
+                            <Grid container spacing={2}>
+                                <Grid item xs={12} md={12}>
+                                    {ProductDescription(AgriculturalProducts[3])}
+                                </Grid>
+                            </Grid>
+                        </Box> */}
                         <Box className="page" >
                             <Grid container spacing={2}>
                                 <Grid item xs={12} md={12}>
@@ -267,34 +269,7 @@ const Products = () => {
                                 </Grid>
                             </Grid>
                         </Box>
-                        <Box className="page" >
-                            <Grid container spacing={2}>
-                                <Grid item xs={12} md={12}>
-                                    {ProductDescription(AgriculturalProducts[4])}
-                                </Grid>
-                            </Grid>
-                        </Box>
-                        <Box className="page" >
-                            <Grid container spacing={2}>
-                                <Grid item xs={12} md={12}>
-                                    {ProductDescription(AgriculturalProducts[5])}
-                                </Grid>
-                            </Grid>
-                        </Box>
-                        <Box className="page" >
-                            <Grid container spacing={2}>
-                                <Grid item xs={12} md={12}>
-                                    {ProductDescription(AgriculturalProducts[6])}
-                                </Grid>
-                            </Grid>
-                        </Box>
-                        <Box className="page" >
-                            <Grid container spacing={2}>
-                                <Grid item xs={12} md={12}>
-                                    {ProductDescription(AgriculturalProducts[7])}
-                                </Grid>
-                            </Grid>
-                        </Box>
+                 
                         <Box className="page" >
                             <Grid container spacing={2}>
                                 <Grid item xs={12} md={12}>
@@ -306,6 +281,41 @@ const Products = () => {
                             <Grid container spacing={2}>
                                 <Grid item xs={12} md={12}>
                                     {ProductDescription(AgroProducts[1])}
+                                </Grid>
+                            </Grid>
+                        </Box>
+                        <Box className="page" >
+                            <Grid container spacing={2}>
+                                <Grid item xs={12} md={12}>
+                                    {ProductDescription(AgroProducts[2])}
+                                </Grid>
+                            </Grid>
+                        </Box>
+                        {/* <Box className="page" >
+                            <Grid container spacing={2}>
+                                <Grid item xs={12} md={12}>
+                                    {ProductDescription(AgroProducts[3])}
+                                </Grid>
+                            </Grid>
+                        </Box> */}
+                        <Box className="page" >
+                            <Grid container spacing={2}>
+                                <Grid item xs={12} md={12}>
+                                    {ProductDescription(AgroProducts[3])}
+                                </Grid>
+                            </Grid>
+                        </Box>
+                        <Box className="page" >
+                            <Grid container spacing={2}>
+                                <Grid item xs={12} md={12}>
+                                    {ProductDescription(AgroProducts[4])}
+                                </Grid>
+                            </Grid>
+                        </Box>
+                        <Box className="page" >
+                            <Grid container spacing={2}>
+                                <Grid item xs={12} md={12}>
+                                    {ProductDescription(AgroProducts[5])}
                                 </Grid>
                             </Grid>
                         </Box>
@@ -344,7 +354,28 @@ const Products = () => {
                                 </Grid>
                             </Grid>
                         </Box>
+                        {/* <Box className="page" >
+                            <Grid container spacing={2}>
+                                <Grid item xs={12} md={12}>
+                                    {ProductDescription(IndustrialProducts[5])}
+                                </Grid>
+                            </Grid>
+                        </Box>
                         <Box className="page" >
+                            <Grid container spacing={2}>
+                                <Grid item xs={12} md={12}>
+                                    {ProductDescription(IndustrialProducts[6])}
+                                </Grid>
+                            </Grid>
+                        </Box> */}
+                        {/* <Box className="page" >
+                            <Grid container spacing={2}>
+                                <Grid item xs={12} md={12}>
+                                    {ProductDescription(IndustrialProducts[7])}
+                                </Grid>
+                            </Grid>
+                        </Box> */}
+                        {/* <Box className="page" >
                             <Grid container spacing={2}>
                                 <Grid item xs={12} md={12}>
                                     {ProductDescription(PlywoodProducts[0])}
@@ -357,7 +388,7 @@ const Products = () => {
                                     {ProductDescription(PlywoodProducts[1])}
                                 </Grid>
                             </Grid>
-                        </Box>
+                        </Box> */}
                     </FlippingPages>
                 </Box>
 
